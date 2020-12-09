@@ -1,0 +1,44 @@
+{
+	"data": [
+		{
+			"category": "Tools when we miss each other",
+			"winner": {
+				"img": "",
+				"title": "Zoom",
+				"link": ""
+			},
+			"candidate": [
+				{
+					"img": "",
+					"title": "Skype",
+					"link": ""
+        },
+        {
+					"img": "",
+					"title": "Telegram",
+					"link": ""
+        },
+        {
+					"img": "",
+					"title": "Telegram",
+					"link": ""
+				}
+			]
+    },
+    {
+			"category": "Tools to brainstorm our idea to each other",
+			"winner": {
+				"img": "",
+				"title": "Pinterest",
+				"link": ""
+			},
+			"candidate": [
+				{
+					"img": "",
+					"title": "Pinterest",
+					"link": ""
+				}
+			]
+    }
+	]
+}
