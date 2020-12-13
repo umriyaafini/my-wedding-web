@@ -11,7 +11,7 @@
     "bulma": "^0.9.1",
     "core-js": "^3.6.5",
     "normalize.css": "^8.0.1",
-    "swiper": "^6.4.0",
+    "swiper": "5.x",
     "vue": "^2.6.11",
     "vue-awesome-swiper": "^4.1.1"
   },

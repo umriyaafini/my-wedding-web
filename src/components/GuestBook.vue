@@ -5,6 +5,9 @@
       <p>Write us a message with your sweet, nice, silly or wise 👰🤵</p>
       <p>PS tips and tricks are allowed</p>
     </div>
+    <div class="guest-book__messages">
+      Samawa ya ...
+    </div>
   </section>
 </template>
 
@@ -14,6 +17,14 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.guest-book {
+  display: flex;
+}
+.guest-book__form {
+  margin-right: 20px;
+}
+.guest-book__messages {
+  margin-left: 20px;
+}
 </style>

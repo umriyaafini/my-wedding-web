@@ -11,9 +11,9 @@
 
 <script>
 import Introduction from "./components/Introduction";
-import OurStory from "./components/OurStory";
 
 const Event = () => import("./components/Event");
+const OurStory = () => import("./components/OurStory");
 const Award = () => import("./components/Award");
 const GuestBook = () => import("./components/GuestBook");
 const SupportUs = () => import("./components/SupportUs");
@@ -36,6 +36,7 @@ body {
   font-size: 16px;
   line-height: 28px;
   color: #262830;
+  overflow-x: hidden;
 }
 p {
   margin: 0;
@@ -44,7 +45,7 @@ p {
   box-sizing: border-box;
 }
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   max-width: 960px;

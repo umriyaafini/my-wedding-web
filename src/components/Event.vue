@@ -12,7 +12,7 @@
       </p>
     </div>
     <div class="event__photos">
-      <img src="../assets/ceremony.png" alt="event" />
+      <img src="/images/ceremony.png" alt="event" />
     </div>
   </section>
 </template>

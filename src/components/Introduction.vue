@@ -5,7 +5,7 @@
     <h1 class="introduction__title">Umriya & Reza</h1>
     <p class="introduction__sub-title">We are getting married 👰🤵</p>
 
-    <img class="introduction__img" src="../assets/um_and_reza.jpg" alt="">
+    <img class="introduction__img" src="/images/um_and_reza.jpg" alt="">
   </section>
 </template>
 
