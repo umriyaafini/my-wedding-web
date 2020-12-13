@@ -51,6 +51,14 @@
             </div>
           </div>
         </swiper-slide>
+        <swiper-slide key="spotify" width="280">
+          <div class="award-card spotify-card">
+            <p class="award-card__title">
+              Bonus: Our Theme Songs 🎹
+            </p>
+            <iframe src="https://open.spotify.com/embed/playlist/0wBdD5ZFRemZrIkCXZEhLU" width="246" height="332" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+        </swiper-slide>
       </swiper>
     </div>
   </section>
@@ -131,5 +139,9 @@ export default {
 .award-card__candidate-list a,
 .award-card__winner-list a {
   margin-right: 16px;
+}
+.spotify-card {
+  background: #0C0C0C;
+  color: #fff;
 }
 </style>
