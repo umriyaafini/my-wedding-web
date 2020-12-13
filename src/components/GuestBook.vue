@@ -67,7 +67,9 @@ export default {
         )
           .then((response) => response.json())
           .then((json) => {
-            this.messages = json && json.guestBook;
+            if(json && json.guestBook.length) {
+              this.messages = json.guestBook.reverse();
+            }
           });
       } catch (error) {
         console.error(error);
@@ -119,7 +121,7 @@ export default {
     padding: 0;
   }
   .guest-book__content {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
   }
   .guest-book__form {
