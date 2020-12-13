@@ -51,7 +51,7 @@
     <p>1 Bamboo toothbrush</p>
 
     <button class="support-us__CTA" @click="handleOpenModalPayment">
-      Get the essential kit / Support Us
+      Get The Essential Kit / Support Us
     </button>
 
     <payment :show="isModalPaymentVisible" @close="handleCloseModalPayment"/>

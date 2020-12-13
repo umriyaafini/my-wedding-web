@@ -63,6 +63,7 @@ section {
   }
 
   section {
+    padding: 0 24px;
     margin-bottom: 40px;
     max-width: 360px;
   }

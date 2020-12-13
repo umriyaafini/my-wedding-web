@@ -27,4 +27,19 @@ export default {
 .guest-book__messages {
   margin-left: 20px;
 }
+@media screen and (max-width: 992px) {
+  .guest-book {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .guest-book__form {
+    margin-bottom: 40px;
+    margin-right: 0;
+  }
+
+  .guest-book__messages {
+    margin-left: 0;
+  }
+}
 </style>
