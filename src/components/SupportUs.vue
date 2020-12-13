@@ -79,7 +79,7 @@ export default {
       hampersPhotos: hampersPhotos.data,
       swiperOptions: {
         slidesPerView: 1,
-        spaceBetween: 40,
+        spaceBetween: 24,
         lazy: true,
         pagination: {
           el: '.swiper-pagination',

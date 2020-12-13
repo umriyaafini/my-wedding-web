@@ -73,7 +73,7 @@ export default {
     return {
 			nominees: awardNominee.data,
       swiperOptions: {
-        spaceBetween: 40,
+        spaceBetween: 24,
         slidesPerView: 'auto',
       },
     };
