@@ -18,14 +18,14 @@
           <picture>
             <source
               type="image/webp"
-              :srcset="photos.img.webp"
+              :data-srcset="photos.img.webp"
             />
             <source
               type="image/jpeg"
-              :srcset="photos.img.jpg"
+              :data-srcset="photos.img.jpg"
             />
             <img
-              :src="photos.img.jpg"
+              :data-src="photos.img.jpg"
               :alt="photos.title"
               class="swiper-lazy"
             />

@@ -21,9 +21,9 @@
                   target="blank"
                 >
                   <img
-                    :src="winner.img"
+                    :data-src="winner.img"
                     :alt="winner.title"
-                    class="award-card__nominee-img"
+                    class="swiper-lazy award-card__nominee-img"
                     :title="winner.title"
                   />
                   <p>{{ winner.title }}</p>
@@ -41,8 +41,8 @@
                   target="blank"
                 >
                   <img
-                    :src="candidate.img"
-                    class="award-card__nominee-img"
+                    :data-src="candidate.img"
+                    class="swiper-lazy award-card__nominee-img"
                     :alt="candidate.title"
                     :title="candidate.title"
                   />
@@ -71,7 +71,7 @@ export default {
   },
   data() {
     return {
-      nominees: awardNominee.data,
+			nominees: awardNominee.data,
       swiperOptions: {
         spaceBetween: 40,
         lazy: true,
