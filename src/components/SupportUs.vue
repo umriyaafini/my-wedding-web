@@ -95,9 +95,11 @@ export default {
   methods: {
     handleOpenModalPayment() {
       this.isModalPaymentVisible = true;
+      document.body.style.overflow = "hidden";
     },
     handleCloseModalPayment() {
       this.isModalPaymentVisible = false
+      document.body.style.overflow = "unset";
     }
   }
 };

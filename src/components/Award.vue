@@ -12,23 +12,23 @@
             </p>
             <div class="award-card__winner">
               <p>Goes to ...</p>
-							<div class="award-card__winner-list">
-              <a
-                class="award-card__nominee"
-                v-for="(winner, w) in nominee.winners"
-								:href="winner.link"
-								:key="w"
-								target="blank"
-              >
-                <img
-                  :src="winner.img"
-                  :alt="winner.title"
-                  class="award-card__nominee-img"
-                  :title="winner.title"
-                />
-                <p>{{ winner.title }}</p>
-              </a>
-							</div>
+              <div class="award-card__winner-list">
+                <a
+                  class="award-card__nominee"
+                  v-for="(winner, w) in nominee.winners"
+                  :href="winner.link"
+                  :key="w"
+                  target="blank"
+                >
+                  <img
+                    :src="winner.img"
+                    :alt="winner.title"
+                    class="award-card__nominee-img"
+                    :title="winner.title"
+                  />
+                  <p>{{ winner.title }}</p>
+                </a>
+              </div>
             </div>
             <div class="award-card__candidate">
               <p>Nomination</p>
@@ -36,9 +36,9 @@
                 <a
                   class="award-card__nominee"
                   v-for="(candidate, c) in nominee.candidate"
-									:href="candidate.link"
+                  :href="candidate.link"
                   :key="c"
-									target="blank"
+                  target="blank"
                 >
                   <img
                     :src="candidate.img"
@@ -83,6 +83,9 @@ export default {
 </script>
 
 <style>
+.award {
+  overflow-x: hidden;
+}
 .award .swiper-slide {
   width: 280px;
 }
@@ -111,17 +114,17 @@ export default {
   margin-bottom: 16px;
 }
 .award-card__nominee {
-	display: inline-block;
-	text-align: center;
-	text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
 }
 .award-card__nominee img {
-	max-width: 48px;
+  max-width: 48px;
 }
 .award-card__nominee p {
-	font-size: 12px;
-	line-height: 22px;
-	color: #262830;
+  font-size: 12px;
+  line-height: 22px;
+  color: #262830;
 }
 
 .award-card__candidate-list,
