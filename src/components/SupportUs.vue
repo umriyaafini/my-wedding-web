@@ -20,7 +20,6 @@
               class="swiper-lazy"
             />
           </picture>
-          <div class="swiper-lazy-preloader swiper-lazy-preloader-white" />
         </swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
         <div class="swiper-button-prev" slot="button-prev">
@@ -80,7 +79,7 @@ export default {
       hampersPhotos: hampersPhotos.data,
       swiperOptions: {
         slidesPerView: 1,
-        spaceBetween: 30,
+        spaceBetween: 40,
         lazy: true,
         pagination: {
           el: '.swiper-pagination',
@@ -109,21 +108,9 @@ export default {
 .support-us .swiper-slide {
   width: 360px;
 }
-
 .support-us .swiper-slide img {
   max-width: 100%;
   border-radius: 40px;
-}
-.swiper-pagination-bullet {
-  background: #ffffff;
-  opacity: 1;
-}
-.swiper-pagination-bullet-active {
-  background: #262830;
-}
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  display: none;
 }
 </style>
 <style scoped>
