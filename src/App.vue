@@ -49,6 +49,7 @@ p {
   -moz-osx-font-smoothing: grayscale;
   max-width: 960px;
   margin: 0 auto;
+  overflow: hidden;
 }
 section {
   padding: 0 40px;
@@ -59,11 +60,9 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-x: hidden;
   }
 
   section {
-    padding: 0 24px;
     margin-bottom: 40px;
     max-width: 360px;
   }
