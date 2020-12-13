@@ -24,6 +24,12 @@
             </div>
           </swiper-slide>
           <div class="swiper-pagination" slot="pagination"></div>
+          <div class="swiper-button-prev" slot="button-prev">
+          <img src="/images/circle-arrow-left.svg" alt="prev" />
+        </div>
+        <div class="swiper-button-next" slot="button-next">
+          <img src="/images/circle-arrow-right.svg" alt="next" />
+        </div>
         </swiper>
       </div>
     </div>
@@ -52,6 +58,10 @@ export default {
         pagination: {
           el: '.swiper-pagination',
           dynamicBullets: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
         },
       },
     };
