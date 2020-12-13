@@ -83,9 +83,6 @@ export default {
 </script>
 
 <style>
-.award {
-  overflow-x: hidden;
-}
 .award .swiper-slide {
   width: 280px;
 }
@@ -99,6 +96,7 @@ export default {
   border-radius: 16px;
   padding: 16px;
   width: 280px;
+	background: #ffffff;
 }
 .award-card__title {
   font-size: 20px;

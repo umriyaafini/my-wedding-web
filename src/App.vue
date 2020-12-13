@@ -36,7 +36,6 @@ body {
   font-size: 16px;
   line-height: 28px;
   color: #262830;
-  overflow-x: hidden;
 }
 p {
   margin: 0;
@@ -60,6 +59,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
   }
 
   section {
