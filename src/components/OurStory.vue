@@ -94,6 +94,16 @@ export default {
 .swiper-button-next::after {
   display: none;
 }
+.swiper-button-prev,
+.swiper-button-next {
+  box-shadow: 0px 2px 4px rgba(110, 116, 134, 0.32);
+  background: #ffffff;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+
+}
 </style>
 <style scoped>
 .our-story {

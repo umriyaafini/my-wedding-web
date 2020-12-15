@@ -1,0 +1,105 @@
+{
+  "data": [
+    {
+      "category": "Category Tools when we miss each other 👩‍💞👨‍",
+      "winners": [
+        {
+          "img": "/images/award/app/zoom@2x.webp",
+          "title": "Zoom",
+          "link": "https://zoom.us/"
+        }
+      ],
+      "candidate": [
+        {
+          "img": "/images/award/app/skype@2x.webp",
+          "title": "Skype",
+          "link": "https://www.skype.com/en/"
+        },
+        {
+          "img": "/images/award/app/telegram@2x.webp",
+          "title": "Telegram",
+          "link": "https://telegram.org/"
+        },
+        {
+          "img": "/images/award/app/whatsapp@2x.webp",
+          "title": "WA",
+          "link": "https://www.whatsapp.com/?lang=en"
+        },
+        {
+          "img": "/images/award/app/hangout@2x.webp",
+          "title": "Hangout",
+          "link": "https://hangouts.google.com/"
+        }
+      ]
+    },
+    {
+      "category": "Category Tools to stay connected 💬",
+      "winners": [
+        {
+          "img": "/images/award/app/telegram@2x.webp",
+          "title": "Telegram",
+          "link": "https://telegram.org/"
+        }
+      ],
+      "candidate": [
+        {
+          "img": "/images/award/app/whatsapp@2x.webp",
+          "title": "WA",
+          "link": "https://www.whatsapp.com/?lang=en"
+        },
+        {
+          "img": "/images/award/app/map@2x.webp",
+          "title": "Maps",
+          "link": "https://support.google.com/maps/answer/7326816"
+        },
+        {
+          "img": "/images/award/app/instagram@2x.webp",
+          "title": "IG",
+          "link": "https://instagram.com/"
+        },
+        {
+          "img": "/images/award/app/twitter@2x.webp",
+          "title": "Twitter",
+          "link": "https://twitter.com/"
+        }
+      ]
+		},
+		{
+      "category": "Category Tools to brainstorm idea 🎲",
+      "winners": [
+        {
+          "img": "/images/award/app/paper@2x.webp",
+          "title": "Paper",
+          "link": "https://www.dropbox.com/paper"
+        },
+        {
+          "img": "/images/award/app/pinterest@2x.webp",
+          "title": "Pinterest",
+          "link": "https://www.pinterest.com/"
+        }
+      ],
+      "candidate": [
+        {
+          "img": "/images/award/app/figma@2x.webp",
+          "title": "Figma",
+          "link": "https://www.figma.com/"
+        },
+        {
+          "img": "/images/award/app/notion@2x.webp",
+          "title": "Notion",
+          "link": "https://www.notion.so/"
+        },
+        {
+          "img": "/images/award/app/keep@2x.webp",
+          "title": "Keep",
+          "link": "https://keep.google.com/"
+        },
+        {
+          "img": "/images/award/app/sheets@2x.webp",
+          "title": "Sheet",
+          "link": "https://www.google.com/sheets/about/"
+        }
+      ]
+    }
+  ]
+}

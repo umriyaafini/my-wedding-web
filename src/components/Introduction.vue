@@ -1,12 +1,12 @@
 <template>
-  <section class="introduction">
+  <div class="introduction">
     <p class="introduction__date">20.12.2020</p>
 
     <h1 class="introduction__title">Umriya & Reza</h1>
     <p class="introduction__sub-title">We are getting married 👰🤵</p>
 
-    <img class="introduction__img" src="/images/um_and_reza.jpg" alt="">
-  </section>
+    <img class="introduction__img" src="/images/umandreza.png" alt="um and reza">
+  </div>
 </template>
 
 <script>

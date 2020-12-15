@@ -2,50 +2,50 @@
   "data": [
     {
       "img": {
-        "jpg": "/images/zero-waste-kit/zero-waste-kit.jpg",
-        "webp": "/images/zero-waste-kit/zero-waste-kit.webp"
+        "jpg": "/images/zerowaste-main.png",
+        "webp": "/images/zerowaste-main.webp"
       },
       "title": "Zero Waste Essential Kit"
     },
     {
       "img": {
-        "jpg": "/images/zero-waste-kit/wooden-cutlery.jpg",
-        "webp": "/images/zero-waste-kit/wooden-cutlery.webp"
+        "jpg": "/images/zerowaste-cutlery.png",
+        "webp": "/images/zerowaste-cutlery.webp"
       },
       "title": "Wooden Cutlery"
     },
     {
       "img": {
-        "jpg": "/images/zero-waste-kit/stainless-steel-straw.jpg",
-        "webp": "/images/zero-waste-kit/stainless-steel-straw.webp"
+        "jpg": "/images/zerowaste-straw.png",
+        "webp": "/images/zerowaste-straw.webp"
       },
       "title": "Stainless Steel Straw"
     },
     {
       "img": {
-        "jpg": "/images/zero-waste-kit/organic-soap.jpg",
-        "webp": "/images/zero-waste-kit/organic-soap.webp"
+        "jpg": "/images/zerowaste-soap.png",
+        "webp": "/images/zerowaste-soap.webp"
       },
       "title": "Organic Soap"
     },
     {
       "img": {
-        "jpg": "/images/zero-waste-kit/wooden-cutton-bud.jpg",
-        "webp": "/images/zero-waste-kit/wooden-cutton-bud.webp"
+        "jpg": "/images/zerowaste-cuttonbud.png",
+        "webp": "/images/zerowaste-cuttonbud.webp"
       },
       "title": "Wooden Cutton Bud"
     },
     {
       "img": {
-        "jpg": "/images/zero-waste-kit/loofah.jpg",
-        "webp": "/images/zero-waste-kit/loofah.webp"
+        "jpg": "/images/zerowaste-loofah.png",
+        "webp": "/images/zerowaste-loofah.webp"
       },
       "title": "Loofah"
     },
     {
       "img": {
-        "jpg": "/images/zero-waste-kit/wooden-toothbrush.jpg",
-        "webp": "/images/zero-waste-kit/wooden-toothbrush.webp"
+        "jpg": "/images/zerowaste-toothbrush.png",
+        "webp": "/images/zerowaste-toothbrush.webp"
       },
       "title": "Wooden Tooth Brush"
     }

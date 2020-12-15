@@ -44,16 +44,27 @@ p {
 * {
   box-sizing: border-box;
 }
+img {
+  max-width: 100%;
+}
 #app {
   font-family: 'Work Sans', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 960px;
+  max-width: 1120px;
   margin: 0 auto;
 }
 section {
-  padding: 0 40px;
-  margin-bottom: 80px;
+  padding: 48px 88px;
+  margin: 40px auto;
+  border-radius: 24px;
+  overflow: hidden;
+}
+.section-title {
+  font-size: 30px;
+  line-height: 32px;
+  margin-top: 0;
+  margin-bottom: 24px;
 }
 @media screen and (max-width: 992px) {
   #app{

@@ -1,20 +1,20 @@
 <template>
   <section class="award">
     <h2 class="section-title">
-      Thank you to everyone who made our life so fun
+      Thank you to everyone who made our life so fun. This is our Special Awards 🥇🥈🥉
     </h2>
-    <div>
+    <div class="award-category">
+      <h3>🍪 Entertainment</h3>
       <swiper ref="awardCard" :options="swiperOptions">
-        <swiper-slide v-for="(nominee, i) in nominees" :key="i" width="280">
-          <div class="award-card">
+        <swiper-slide v-for="(nominee, i) in entertainmentNominees" :key="i" width="280">
+          <div class="award-card award-entertainment">
             <p class="award-card__title">
-              Our Choice Award Category {{ nominee.category }}
+              {{ nominee.category }}
             </p>
             <div class="award-card__winner">
-              <p>Goes to ...</p>
-              <div class="award-card__winner-list">
+              <p class="award__section-title">The Winner Goes to ...</p>
+              <div class="award-entertainment__winner">
                 <a
-                  class="award-card__nominee"
                   v-for="(winner, w) in nominee.winners"
                   :href="winner.link"
                   :key="w"
@@ -23,18 +23,16 @@
                   <img
                     :src="winner.img"
                     :alt="winner.title"
-                    class="award-card__nominee-img"
                     :title="winner.title"
                   />
-                  <p>{{ winner.title }}</p>
+                  <p>🏆 {{ winner.title }}</p>
                 </a>
               </div>
             </div>
-            <div class="award-card__candidate">
-              <p>Nomination</p>
-              <div class="award-card__candidate-list">
+            <div class="award-entertainment__candidate">
+              <p class="award__section-title">Nomination</p>
+              <div class="award-entertainment__candidate-list">
                 <a
-                  class="award-card__nominee"
                   v-for="(candidate, c) in nominee.candidate"
                   :href="candidate.link"
                   :key="c"
@@ -42,10 +40,60 @@
                 >
                   <img
                     :src="candidate.img"
-                    class="award-card__nominee-img"
                     :alt="candidate.title"
                     :title="candidate.title"
                   />
+                  <p>{{ candidate.title }}</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+      </swiper>
+    </div>
+
+
+    <div class="award-category">
+      <h3>🍪 Applications</h3>
+      <swiper ref="awardCard" :options="swiperOptions">
+        <swiper-slide v-for="(nominee, i) in appNominees" :key="i" width="280">
+          <div class="award-card award-app">
+            <p class="award-card__title">
+              {{ nominee.category }}
+            </p>
+            <div class="award-card__winner">
+              <p class="award__section-title">The Winner Goes to ...</p>
+              <div class="award-app__winner-list">
+                <a
+                  v-for="(winner, w) in nominee.winners"
+                  :href="winner.link"
+                  :key="w"
+                  target="blank"
+                >
+                  <img
+                    :src="winner.img"
+                    :alt="winner.title"
+                    :title="winner.title"
+                  />
+                  <p>🏆 {{ winner.title }}</p>
+                </a>
+              </div>
+            </div>
+            <div class="award-app__candidate">
+              <p class="award__section-title">Nomination</p>
+              <div class="award-app__candidate-list">
+                <a
+                  v-for="(candidate, c) in nominee.candidate"
+                  :href="candidate.link"
+                  :key="c"
+                  target="blank"
+                >
+                  <img
+                    :src="candidate.img"
+                    :alt="candidate.title"
+                    :title="candidate.title"
+                  />
+                  <p>{{ candidate.title }}</p>
                 </a>
               </div>
             </div>
@@ -54,9 +102,9 @@
         <swiper-slide key="spotify" width="280">
           <div class="award-card spotify-card">
             <p class="award-card__title">
-              Bonus: Our Theme Songs 🎹
+              Category Tools to listen music 🎉 Spotify 🎉
             </p>
-            <iframe src="https://open.spotify.com/embed/playlist/0wBdD5ZFRemZrIkCXZEhLU" width="246" height="332" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/playlist/0wBdD5ZFRemZrIkCXZEhLU" width="246" height="312" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
         </swiper-slide>
       </swiper>
@@ -66,7 +114,8 @@
 
 <script>
 import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper';
-import awardNominee from '../data/awardNominee.json';
+import awardApplication from '../data/awardApplication.json';
+import awardEntertainment from '../data/awardEntertainment.json';
 
 export default {
   name: 'Award',
@@ -79,7 +128,8 @@ export default {
   },
   data() {
     return {
-			nominees: awardNominee.data,
+      appNominees: awardApplication.data,
+      entertainmentNominees: awardEntertainment.data,
       swiperOptions: {
         spaceBetween: 24,
         slidesPerView: 'auto',
@@ -98,8 +148,12 @@ export default {
 }
 </style>
 <style scoped>
+a {
+  color: #262830;
+  text-decoration: none;
+}
 .award-card {
-  border: 1px solid #262830;
+  border: 1px solid #E8EDF1;
   border-radius: 16px;
   padding: 16px;
   width: 280px;
@@ -112,36 +166,69 @@ export default {
   margin: 0;
   margin-bottom: 16px;
 }
-.award-card__winner,
-.award-card__winner > p,
-.award-card__candidate,
-.award-card__candidate > p {
-  margin-bottom: 16px;
-}
-.award-card__nominee {
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-}
-.award-card__nominee img {
-  max-width: 48px;
-}
-.award-card__nominee p {
-  font-size: 12px;
-  line-height: 22px;
-  color: #262830;
-}
-
-.award-card__candidate-list,
-.award-card__winner-list {
-  display: flex;
-}
-.award-card__candidate-list a,
-.award-card__winner-list a {
-  margin-right: 16px;
-}
 .spotify-card {
   background: #0C0C0C;
   color: #fff;
+}
+.award__section-title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* Entertainment Award */
+.award-entertainment__winner p {
+  font-weight: 14px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.award-entertainment__candidate-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -8px;
+}
+
+.award-entertainment__candidate-list a {
+  display: inline-block;
+  width: 50%;
+  padding: 0 8px;
+  margin-bottom: 16px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.award-card__winner {
+  margin-bottom: 16px;
+}
+.award-category {
+  margin-top: 48px;
+}
+
+/* App Award */
+.award-app__winner-list {
+  display: flex;
+  margin: 0 -8px;
+}
+.award-app__winner-list a {
+  width: 50%;
+  padding: 0 8px;
+  font-weight: 600;
+}
+.award-app__candidate-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.award-app__candidate-list img {
+  width: 48px;
+  height: 48px;
+}
+.award-app__candidate-list a {
+  margin-bottom: 16px;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
 }
 </style>

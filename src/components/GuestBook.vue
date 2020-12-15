@@ -4,33 +4,37 @@
       Guest Book
     </h2>
     <div class="guest-book__content">
-      <div class="guest-book__form">
-        <iframe
-          src="https://rezafaizarahman.typeform.com/to/IizPUyxV"
-          height="320px"
-          width="100%"
-          style="border:none;"
-          title="Guest Book"
-        ></iframe>
+      <div>
+        <div class="guest-book__form">
+          <iframe
+            src="https://rezafaizarahman.typeform.com/to/IizPUyxV"
+            height="320px"
+            width="100%"
+            style="border:none;"
+            title="Guest Book"
+          ></iframe>
+        </div>
       </div>
-      <div class="guest-book__messages">
-        <swiper ref="guestBook" :options="swiperOptions">
-          <swiper-slide v-for="(message, i) in messages" :key="i">
-            <div class="message-list">
-              <div class="message-list__content">"{{ message.message }}"</div>
-              <p class="message-list__name">
-                {{ message.name }}
-              </p>
+      <div>
+        <div class="guest-book__messages">
+          <swiper ref="guestBook" :options="swiperOptions">
+            <swiper-slide v-for="(message, i) in messages" :key="i">
+              <div class="message-list">
+                <div class="message-list__content">"{{ message.message }}"</div>
+                <p class="message-list__name">
+                  {{ message.name }}
+                </p>
+              </div>
+            </swiper-slide>
+            <div class="swiper-pagination" slot="pagination"></div>
+            <div class="swiper-button-prev" slot="button-prev">
+              <img src="/images/circle-arrow-left.svg" alt="prev" />
             </div>
-          </swiper-slide>
-          <div class="swiper-pagination" slot="pagination"></div>
-          <div class="swiper-button-prev" slot="button-prev">
-          <img src="/images/circle-arrow-left.svg" alt="prev" />
+            <div class="swiper-button-next" slot="button-next">
+              <img src="/images/circle-arrow-right.svg" alt="next" />
+            </div>
+          </swiper>
         </div>
-        <div class="swiper-button-next" slot="button-next">
-          <img src="/images/circle-arrow-right.svg" alt="next" />
-        </div>
-        </swiper>
       </div>
     </div>
   </section>
@@ -77,7 +81,7 @@ export default {
         )
           .then((response) => response.json())
           .then((json) => {
-            if(json && json.guestBook.length) {
+            if (json && json.guestBook.length) {
               this.messages = json.guestBook.reverse();
             }
           });
@@ -90,32 +94,38 @@ export default {
 </script>
 <style>
 .guest-book .swiper-slide {
-  max-width: 360px;
-  background: #ecf8f7;
   padding: 20px;
   border-radius: 16px;
   text-align: center;
 }
-
 .guest-book .swiper-pagination-bullet {
-  background: #d6f0ee;
+  background: #e5eaef;
   opacity: 1;
 }
 .guest-book .swiper-pagination-bullet-active {
-  background: #008f7b;
+  background: #252a31;
 }
 </style>
 <style scoped>
 .guest-book__content {
   display: flex;
+  margin: 0 -20px;
 }
-.guest-book__form {
-  flex: 1;
-  margin-right: 20px;
+.guest-book__content > div {
+  width: 50%;
+  padding: 0 20px;
+}
+.guest-book__form,
+.guest-book__messages {
+  border: 1px solid #e8edf1;
+  border-radius: 12px;
+  overflow: hidden;
 }
 .guest-book__messages {
-  margin-top: 48px;
-  max-width: 360px;
+  background: #f5f7f9;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 .message-list__content {
   font-size: 18px;
@@ -127,12 +137,12 @@ export default {
   margin-bottom: 24px;
 }
 @media screen and (max-width: 992px) {
-  .guest-book {
-    padding: 0;
-  }
   .guest-book__content {
     flex-direction: column;
     align-items: center;
+  }
+  .guest-book__content > div {
+    width: 100%;
   }
   .guest-book__form {
     margin-bottom: 40px;

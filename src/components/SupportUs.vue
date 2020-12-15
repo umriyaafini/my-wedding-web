@@ -6,14 +6,8 @@
       <swiper ref="hampersPhotos" :options="swiperOptions">
         <swiper-slide v-for="(photos, i) in hampersPhotos" :key="i">
           <picture>
-            <source
-              type="image/webp"
-              :data-srcset="photos.img.webp"
-            />
-            <source
-              type="image/jpeg"
-              :data-srcset="photos.img.jpg"
-            />
+            <source type="image/webp" :data-srcset="photos.img.webp" />
+            <source type="image/jpeg" :data-srcset="photos.img.jpg" />
             <img
               :data-src="photos.img.jpg"
               :alt="photos.title"
@@ -38,7 +32,7 @@
       considering to reuse your belonging everyday in your life.
     </p>
 
-    <br/>
+    <br />
 
     <b>This zero waste essential kit will help you to start:</b>
 
@@ -53,7 +47,7 @@
       Get The Essential Kit / Support Us
     </button>
 
-    <payment :show="isModalPaymentVisible" @close="handleCloseModalPayment"/>
+    <payment :show="isModalPaymentVisible" @close="handleCloseModalPayment" />
   </section>
 </template>
 
@@ -61,14 +55,14 @@
 import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper';
 import hampersPhotos from '../data/hampersPhotos.json';
 
-const Payment = () => import("./Payment");
+const Payment = () => import('./Payment');
 
 export default {
   name: 'SupportUs',
   components: {
     Swiper,
     SwiperSlide,
-    Payment
+    Payment,
   },
   directives: {
     swiper: directive,
@@ -94,13 +88,13 @@ export default {
   methods: {
     handleOpenModalPayment() {
       this.isModalPaymentVisible = true;
-      document.body.style.overflow = "hidden";
+      document.body.style.overflow = 'hidden';
     },
     handleCloseModalPayment() {
-      this.isModalPaymentVisible = false
-      document.body.style.overflow = "unset";
-    }
-  }
+      this.isModalPaymentVisible = false;
+      document.body.style.overflow = 'unset';
+    },
+  },
 };
 </script>
 
