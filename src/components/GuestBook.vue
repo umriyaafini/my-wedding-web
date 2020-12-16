@@ -77,12 +77,12 @@ export default {
     getDataMessages() {
       try {
         fetch(
-          'https://api.sheety.co/8f2a139d9a1a17f46369a4f423b4e0a4/guestBook/guestBook'
+          'http://gsx2json.com/api?id=1gvpUhAjghXlSItvCfzYm2LY98hDXrmIAvuEgYh3VXKg&sheet=1&columns=false'
         )
           .then((response) => response.json())
           .then((json) => {
-            if (json &&  json.guestBook && json.guestBook.length) {
-              this.messages = json.guestBook.reverse();
+            if (json &&  json.rows && json.rows.length) {
+              this.messages = json.rows.reverse();
             }
           });
       } catch (error) {
