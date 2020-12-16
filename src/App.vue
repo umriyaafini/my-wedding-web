@@ -10,13 +10,16 @@
 </template>
 
 <script>
-import Introduction from "./components/Introduction";
+import Introduction from './components/Introduction';
+import OurStory from './components/OurStory';
+import Event from './components/Event';
 
-const Event = () => import("./components/Event");
-const OurStory = () => import("./components/OurStory");
-const Award = () => import("./components/Award");
-const GuestBook = () => import("./components/GuestBook");
-const SupportUs = () => import("./components/SupportUs");
+const Award = () =>
+  import(/* webpackChunkName: 'Award' */ './components/Award');
+const GuestBook = () =>
+  import(/* webpackChunkName: 'GuestBook' */ './components/GuestBook');
+const SupportUs = () =>
+  import(/* webpackChunkName: 'SupportUs' */ './components/SupportUs');
 
 export default {
   name: 'App',
@@ -26,9 +29,9 @@ export default {
     Event,
     Award,
     GuestBook,
-    SupportUs
-  }
-}
+    SupportUs,
+  },
+};
 </script>
 
 <style>
@@ -58,7 +61,6 @@ section {
   padding: 48px 88px;
   margin: 40px auto;
   border-radius: 24px;
-  overflow: hidden;
 }
 .section-title {
   font-size: 30px;
@@ -67,7 +69,7 @@ section {
   margin-bottom: 24px;
 }
 @media screen and (max-width: 992px) {
-  #app{
+  #app {
     display: flex;
     flex-direction: column;
     align-items: center;

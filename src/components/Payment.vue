@@ -13,7 +13,7 @@
             height="320px"
             width="100%"
             style="border:none;"
-            title=""
+            title="delivery"
           ></iframe>
         </div>
         <div class="payment__method">
@@ -23,39 +23,79 @@
             <div class="payment__method-detail">
               <p>Kirim ke nomor <b>+62 85 7747 93937</b></p>
               <p>Atau scan QR Code di bawah ini</p>
-              <img />
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="/images/payment/gopay@2x.webp"
+                />
+                <source
+                  type="image/png"
+                  srcset="/images/payment/gopay@2x.png"
+                />
+                <img src="/images/payment/gopay@2x.png" alt="gopay qr" />
+              </picture>
             </div>
           </details>
           <details>
             <summary>OVO</summary>
             <div class="payment__method-detail">
-              <p>Kirim ke nomor <b>+62 85 7747 93937</b></p>
+              <p>Kirim ke nomor <b>+62 8522 866 9196</b></p>
               <p>Atau scan QR Code di bawah ini</p>
-              <img />
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="/images/payment/ovo@2x.webp"
+                />
+                <source
+                  type="image/png"
+                  srcset="/images/payment/ovo@2x.png"
+                />
+                <img src="/images/payment/ovo@2x.png" alt="ovo qr" />
+              </picture>
             </div>
           </details>
           <details>
             <summary>DANA</summary>
             <div class="payment__method-detail">
-              <p>Kirim ke nomor <b>+62 85 7747 93937</b></p>
+              <p>Kirim ke nomor <b>+62 8522 866 9196</b></p>
               <p>Atau scan QR Code di bawah ini</p>
-              <img />
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="/images/payment/dana@2x.webp"
+                />
+                <source
+                  type="image/png"
+                  srcset="/images/payment/dana@2x.png"
+                />
+                <img src="/images/payment/dana@2x.png" alt="dana qr" />
+              </picture>
             </div>
           </details>
           <details>
             <summary>BCA</summary>
             <div class="payment__method-detail">
-              <p>Kirim ke nomor <b>+62 85 7747 93937</b></p>
+              <p>Kirim ke nomor rekening <b>0097139818</b></p>
               <p>Atau scan QR Code di bawah ini</p>
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="/images/payment/bca@2x.webp"
+                />
+                <source
+                  type="image/png"
+                  srcset="/images/payment/bca@2x.png"
+                />
+                <img src="/images/payment/bca@2x.png" alt="bca qr" />
+              </picture>
             </div>
-            <img />
           </details>
           <details>
             <summary>JENIUS</summary>
             <div class="payment__method-detail">
-              <p>Kirim ke nomor <b>+62 85 7747 93937</b></p>
-              <p>Atau scan QR Code di bawah ini</p>
-              <img />
+              <p>Kirim ke nomor rekening <b>90011114944</b></p>
+              <p>Atau ke Cashtag</p>
+              <h3>$umriya</h3>
             </div>
           </details>
         </div>
@@ -130,6 +170,9 @@ export default {
 .payment__method-detail {
   border-top: 1px solid #e8edf1;
   padding: 16px;
+}
+.payment__method-detail img {
+  max-width: 240px;
 }
 @media screen and (max-width: 992px) {
   .payment-inside {

@@ -1,12 +1,17 @@
 <template>
   <section class="award">
     <h2 class="section-title">
-      Thank you to everyone who made our life so fun. This is our Special Awards 🥇🥈🥉
+      Thank you to everyone who made our life so fun. This is our Special Awards
+      🥇🥈🥉
     </h2>
     <div class="award-category">
       <h3>🍪 Entertainment</h3>
       <swiper ref="awardCard" :options="swiperOptions">
-        <swiper-slide v-for="(nominee, i) in entertainmentNominees" :key="i" width="280">
+        <swiper-slide
+          v-for="(nominee, i) in entertainmentNominees"
+          :key="i"
+          width="280"
+        >
           <div class="award-card award-entertainment">
             <p class="award-card__title">
               {{ nominee.category }}
@@ -20,11 +25,29 @@
                   :key="w"
                   target="blank"
                 >
-                  <img
-                    :src="winner.img"
-                    :alt="winner.title"
-                    :title="winner.title"
-                  />
+                  <template v-if="isMobileView">
+                    <picture>
+                      <source type="image/webp" :data-srcset="winner.img.webp" />
+                      <source type="image/jpeg" :data-srcset="winner.img.png" />
+                      <img
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="
+                        :data-src="winner.img.png"
+                        :alt="winner.title"
+                        class="swiper-lazy"
+                      />
+                    </picture>
+                  </template>
+                  <template v-else>
+                    <picture>
+                      <source type="image/webp" :srcset="winner.img.webp" />
+                      <source type="image/jpeg" :srcset="winner.img.png" />
+                      <img
+                        :src="winner.img.png"
+                        :alt="winner.title"
+                        class="swiper-lazy"
+                      />
+                    </picture>
+                  </template>
                   <p>🏆 {{ winner.title }}</p>
                 </a>
               </div>
@@ -38,11 +61,35 @@
                   :key="c"
                   target="blank"
                 >
-                  <img
-                    :src="candidate.img"
-                    :alt="candidate.title"
-                    :title="candidate.title"
-                  />
+                  <template v-if="isMobileView">
+                    <picture>
+                      <source
+                        type="image/webp"
+                        :data-srcset="candidate.img.webp"
+                      />
+                      <source
+                        type="image/jpeg"
+                        :data-srcset="candidate.img.png"
+                      />
+                      <img
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="
+                        :data-src="candidate.img.png"
+                        :alt="candidate.title"
+                        class="swiper-lazy"
+                      />
+                    </picture>
+                  </template>
+                  <template v-else>
+                    <picture>
+                      <source type="image/webp" :srcset="candidate.img.webp" />
+                      <source type="image/jpeg" :srcset="candidate.img.png" />
+                      <img
+                        :src="candidate.img.png"
+                        :alt="candidate.title"
+                        class="swiper-lazy"
+                      />
+                    </picture>
+                  </template>
                   <p>{{ candidate.title }}</p>
                 </a>
               </div>
@@ -51,7 +98,6 @@
         </swiper-slide>
       </swiper>
     </div>
-
 
     <div class="award-category">
       <h3>🍪 Applications</h3>
@@ -70,11 +116,31 @@
                   :key="w"
                   target="blank"
                 >
-                  <img
-                    :src="winner.img"
-                    :alt="winner.title"
-                    :title="winner.title"
-                  />
+                  <template v-if="isMobileView">
+                    <picture>
+                      <source
+                        type="image/webp"
+                        :data-srcset="winner.img.webp"
+                      />
+                      <source type="image/jpeg" :data-srcset="winner.img.png" />
+                      <img
+                        :data-src="winner.img.png"
+                        :alt="winner.title"
+                        class="swiper-lazy"
+                      />
+                    </picture>
+                  </template>
+                  <template v-else>
+                    <picture>
+                      <source type="image/webp" :srcset="winner.img.webp" />
+                      <source type="image/jpeg" :srcset="winner.img.png" />
+                      <img
+                        :src="winner.img.png"
+                        :alt="winner.title"
+                        class="swiper-lazy"
+                      />
+                    </picture>
+                  </template>
                   <p>🏆 {{ winner.title }}</p>
                 </a>
               </div>
@@ -88,11 +154,34 @@
                   :key="c"
                   target="blank"
                 >
-                  <img
-                    :src="candidate.img"
-                    :alt="candidate.title"
-                    :title="candidate.title"
-                  />
+                  <template v-if="isMobileView">
+                    <picture>
+                      <source
+                        type="image/webp"
+                        :data-srcset="candidate.img.webp"
+                      />
+                      <source
+                        type="image/jpeg"
+                        :data-srcset="candidate.img.png"
+                      />
+                      <img
+                        :data-src="candidate.img.png"
+                        :alt="candidate.title"
+                        class="swiper-lazy"
+                      />
+                    </picture>
+                  </template>
+                  <template v-else>
+                    <picture>
+                      <source type="image/webp" :srcset="candidate.img.webp" />
+                      <source type="image/jpeg" :srcset="candidate.img.png" />
+                      <img
+                        :src="candidate.img.png"
+                        :alt="candidate.title"
+                        class="swiper-lazy"
+                      />
+                    </picture>
+                  </template>
                   <p>{{ candidate.title }}</p>
                 </a>
               </div>
@@ -104,7 +193,14 @@
             <p class="award-card__title">
               Category Tools to listen music 🎉 Spotify 🎉
             </p>
-            <iframe src="https://open.spotify.com/embed/playlist/0wBdD5ZFRemZrIkCXZEhLU" width="246" height="312" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe
+              src="https://open.spotify.com/embed/playlist/0wBdD5ZFRemZrIkCXZEhLU"
+              width="246"
+              height="312"
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
           </div>
         </swiper-slide>
       </swiper>
@@ -133,7 +229,11 @@ export default {
       swiperOptions: {
         spaceBetween: 24,
         slidesPerView: 'auto',
+        lazy: {
+          loadPrevNext: true,
+        },
       },
+      isMobileView: window.innerWidth <= 583,
     };
   },
 };
@@ -153,11 +253,11 @@ a {
   text-decoration: none;
 }
 .award-card {
-  border: 1px solid #E8EDF1;
+  border: 1px solid #e8edf1;
   border-radius: 16px;
   padding: 16px;
   width: 280px;
-	background: #ffffff;
+  background: #ffffff;
 }
 .award-card__title {
   font-size: 20px;
@@ -167,7 +267,7 @@ a {
   margin-bottom: 16px;
 }
 .spotify-card {
-  background: #0C0C0C;
+  background: #0c0c0c;
   color: #fff;
 }
 .award__section-title {

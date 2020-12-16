@@ -34,14 +34,16 @@
 
     <br />
 
-    <b>This zero waste essential kit will help you to start:</b>
-
-    <p>1 Set cutlery made from mahogany: spoon, fork and chopsticks</p>
-    <p>1 Set stainless steel staws</p>
-    <p>Organic soap (flavor: charcoal / jasmine / coffee)</p>
-    <p>100 pcs wooden cutton bud</p>
-    <p>Loofah Sponge (± 10cm)</p>
-    <p>1 Bamboo toothbrush</p>
+    <div class="support-us__product-desc">
+      <b>This zero waste essential kit will help you to start:</b>
+      <br /><br />
+      <p>1 Set cutlery made from mahogany: spoon, fork and chopsticks</p>
+      <p>1 Set stainless steel staws</p>
+      <p>Organic soap (flavor: charcoal / jasmine / coffee)</p>
+      <p>100 pcs wooden cotton bud</p>
+      <p>Loofah Sponge (± 10cm)</p>
+      <p>1 Bamboo toothbrush</p>
+    </div>
 
     <button class="support-us__CTA" @click="handleOpenModalPayment">
       Get The Essential Kit / Support Us
@@ -55,7 +57,7 @@
 import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper';
 import hampersPhotos from '../data/hampersPhotos.json';
 
-const Payment = () => import('./Payment');
+const Payment = () => import(/* webpackChunkName: 'Payment' */ './Payment');
 
 export default {
   name: 'SupportUs',
@@ -74,7 +76,9 @@ export default {
       swiperOptions: {
         slidesPerView: 1,
         spaceBetween: 24,
-        lazy: true,
+        lazy: {
+          loadPrevNext: true,
+        },
         pagination: {
           el: '.swiper-pagination',
         },
@@ -106,6 +110,15 @@ export default {
   max-width: 100%;
   border-radius: 40px;
 }
+.swiper-button-prev,
+.swiper-button-next {
+  box-shadow: 0px 2px 4px rgba(110, 116, 134, 0.32);
+  background: #ffffff;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+}
 </style>
 <style scoped>
 .support-us {
@@ -119,7 +132,7 @@ export default {
   max-width: 360px;
 }
 p {
-  max-width: 509px;
+  max-width: 600px;
 }
 .support-us__CTA {
   padding: 12px;
@@ -132,5 +145,17 @@ p {
   font-size: 16px;
   margin-top: 40px;
   margin-bottom: 120px;
+  font-weight: 600;
+}
+.support-us__product-desc {
+  background: #f5f7f9;
+  border-radius: 24px;
+  padding: 32px;
+}
+
+@media screen and (max-width: 992px) {
+  .support-us__product-desc {
+    padding: 16px;
+  }
 }
 </style>

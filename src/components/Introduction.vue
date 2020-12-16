@@ -37,7 +37,7 @@ export default {
 }
 .introduction__img {
   margin-top: 120px;
-  max-width: 400px;
+  max-width: 600px;
 }
 
 @media screen and (max-width: 992px) {

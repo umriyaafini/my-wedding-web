@@ -4,29 +4,44 @@
       "category": "Category Most-viewed Youtube channel 📺",
       "winners": [
         {
-          "img": "/images/award/youtube/kisahtanahjawa@2x.webp",
+          "img": {
+            "webp": "/images/award/youtube/kisahtanahjawa@2x.webp",
+            "png": "/images/award/youtube/kisahtanahjawa@2x.png"
+          },
           "title": "Kisah Tanah Jawa",
           "link": "https://www.youtube.com/channel/UCZIEmkvbSV8wBVWnP4wgftA"
         }
       ],
       "candidate": [
         {
-          "img": "/images/award/youtube/mediakoentji@2x.webp",
+          "img": {
+            "webp": "/images/award/youtube/mediakoentji@2x.webp",
+            "png": "/images/award/youtube/mediakoentji@2x.png"
+          },
           "title": "Media Koentji",
           "link": "https://www.youtube.com/channel/UCozSEVDJiTNHZn4ktIOsFhg"
         },
         {
-          "img": "/images/award/youtube/watchdoc@2x.webp",
+          "img": {
+            "webp": "/images/award/youtube/watchdoc@2x.webp",
+            "png": "/images/award/youtube/watchdoc@2x.png"
+          },
           "title": "Watchdoc",
           "link": "https://www.youtube.com/user/watchd0c"
         },
         {
-          "img": "/images/award/youtube/jsc@2x.webp",
+          "img": {
+            "webp": "/images/award/youtube/jsc@2x.webp",
+            "png": "/images/award/youtube/jsc@2x.png"
+          },
           "title": "JCS",
           "link": "https://www.youtube.com/c/JCSCriminalPsychology"
         },
         {
-          "img": "/images/award/youtube/beforeafter@2x.webp",
+          "img": {
+            "webp": "/images/award/youtube/beforeafter@2x.webp",
+            "png": "/images/award/youtube/beforeafter@2x.png"
+          },
           "title": "Before After",
           "link": "https://www.wakuwakujapan.com/en/program/detail/wj0000002755/"
         }
@@ -36,29 +51,44 @@
       "category": "Category Best recent K-drama 👩👨️‍",
       "winners": [
         {
-          "img": "/images/award/kdrama/startup@2x.webp",
+          "img": {
+            "webp": "/images/award/kdrama/startup@2x.webp",
+            "png": "/images/award/kdrama/startup@2x.png"
+          },
           "title": "Start-Up",
           "link": "https://www.netflix.com/title/81290293"
         }
       ],
       "candidate": [
         {
-          "img": "/images/award/kdrama/reply@2x.webp",
+          "img": {
+            "webp": "/images/award/kdrama/reply@2x.webp",
+            "png": "/images/award/kdrama/reply@2x.png"
+          },
           "title": "Reply 1988",
           "link": "https://www.netflix.com/title/80188351"
         },
         {
-          "img": "/images/award/kdrama/prison@2x.webp",
+          "img": {
+            "webp": "/images/award/kdrama/prison@2x.webp",
+            "png": "/images/award/kdrama/prison@2x.png"
+          },
           "title": "Prison Playbook",
           "link": "https://www.netflix.com/title/80214406"
         },
         {
-          "img": "/images/award/kdrama/ohmygosh@2x.webp",
+          "img": {
+            "webp": "/images/award/kdrama/ohmygosh@2x.webp",
+            "png": "/images/award/kdrama/ohmygosh@2x.png"
+          },
           "title": "Oh My Ghost",
           "link": "https://www.netflix.com/title/80178404"
         },
         {
-          "img": "/images/award/kdrama/dodosolsollalasol@2x.webp",
+          "img": {
+            "webp": "/images/award/kdrama/dodosolsollalasol@2x.webp",
+            "png": "/images/award/kdrama/dodosolsollalasol@2x.png"
+          },
           "title": "Doldolsolsollalasol",
           "link": "https://www.netflix.com/title/81276344"
         }
@@ -68,29 +98,44 @@
       "category": "Category Best Netflix series 🍟",
       "winners": [
         {
-          "img": "/images/award/series/sexed@2x.webp",
+          "img": {
+            "webp": "/images/award/series/sexed@2x.webp",
+            "png": "/images/award/series/sexed@2x.png"
+          },
           "title": "Sex Education",
           "link": "https://www.netflix.com/title/80197526"
         }
       ],
       "candidate": [
         {
-          "img": "/images/award/series/blymanor@2x.webp",
+          "img": {
+            "webp": "/images/award/series/blymanor@2x.webp",
+            "png": "/images/award/series/blymanor@2x.png"
+          },
           "title": "TH of Byl Manor",
           "link": "https://www.netflix.com/title/81237854"
         },
         {
-          "img": "/images/award/series/emily@2x.webp",
+          "img": {
+            "webp": "/images/award/series/emily@2x.webp",
+            "png": "/images/award/series/emily@2x.png"
+          },
           "title": "Emily in Paris",
           "link": "https://www.netflix.com/title/81037371"
         },
         {
-          "img": "/images/award/series/juon@2x.webp",
+          "img": {
+            "webp": "/images/award/series/juon@2x.webp",
+            "png": "/images/award/series/juon@2x.png"
+          },
           "title": "Ju On Origin",
           "link": "https://www.netflix.com/title/81059942"
         },
         {
-          "img": "/images/award/series/queensgambit@2x.webp",
+          "img": {
+            "webp": "/images/award/series/queensgambit@2x.webp",
+            "png": "/images/award/series/queensgambit@2x.png"
+          },
           "title": "Queens's Gambit",
           "link": "https://www.netflix.com/title/80234304"
         }
@@ -100,29 +145,44 @@
       "category": "Category Most favorite activities together 🌿",
       "winners": [
         {
-          "img": "/images/award/activities/planting@2x.webp",
+          "img": {
+            "webp": "/images/award/activities/planting@2x.webp",
+            "png": "/images/award/activities/planting@2x.png"
+          },
           "title": "Planting",
           "link": "https://en.wikipedia.org/wiki/Plant_nursery"
         }
       ],
       "candidate": [
         {
-          "img": "/images/award/activities/cooking@2x.webp",
+          "img": {
+            "webp": "/images/award/activities/cooking@2x.webp",
+            "png": "/images/award/activities/cooking@2x.png"
+          },
           "title": "Cooking",
           "link": "https://en.wikipedia.org/wiki/Cooking"
         },
         {
-          "img": "/images/award/activities/hiking@2x.webp",
+          "img": {
+            "webp": "/images/award/activities/hiking@2x.webp",
+            "png": "/images/award/activities/hiking@2x.png"
+          },
           "title": "Hiking",
           "link": "https://en.wikipedia.org/wiki/Hiking"
         },
         {
-          "img": "/images/award/activities/touring@2x.webp",
+          "img": {
+            "webp": "/images/award/activities/touring@2x.webp",
+            "png": "/images/award/activities/touring@2x.png"
+          },
           "title": "Touring",
           "link": "https://en.wikipedia.org/wiki/Touring"
         },
         {
-          "img": "/images/award/activities/reading@2x.webp",
+          "img": {
+            "webp": "/images/award/activities/reading@2x.webp",
+            "png": "/images/award/activities/reading@2x.png"
+          },
           "title": "Reading",
           "link": "https://en.wikipedia.org/wiki/Reading"
         }

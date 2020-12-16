@@ -81,7 +81,7 @@ export default {
         )
           .then((response) => response.json())
           .then((json) => {
-            if (json && json.guestBook.length) {
+            if (json &&  json.guestBook && json.guestBook.length) {
               this.messages = json.guestBook.reverse();
             }
           });
@@ -104,6 +104,15 @@ export default {
 }
 .guest-book .swiper-pagination-bullet-active {
   background: #252a31;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  box-shadow: 0px 2px 4px rgba(110, 116, 134, 0.32);
+  background: #ffffff;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 8px;
 }
 </style>
 <style scoped>
@@ -152,6 +161,10 @@ export default {
   .guest-book__messages {
     margin-top: 24px;
     margin-left: 0;
+  }
+  .message-list__content {
+    max-width: 240px;
+    margin: 0 auto;
   }
 }
 </style>

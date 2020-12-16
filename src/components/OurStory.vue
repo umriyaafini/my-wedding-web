@@ -16,14 +16,8 @@
       <swiper ref="ourStoryPhotos" :options="swiperOptions">
         <swiper-slide v-for="(photos, i) in ourStoryPhotos" :key="i">
           <picture>
-            <source
-              type="image/webp"
-              :data-srcset="photos.img.webp"
-            />
-            <source
-              type="image/jpeg"
-              :data-srcset="photos.img.jpg"
-            />
+            <source type="image/webp" :data-srcset="photos.img.webp" />
+            <source type="image/jpeg" :data-srcset="photos.img.jpg" />
             <img
               :data-src="photos.img.jpg"
               :alt="photos.title"
@@ -58,9 +52,9 @@ export default {
   },
   data() {
     return {
-			ourStoryPhotos: ourStoryPhotos.data,
+      ourStoryPhotos: ourStoryPhotos.data,
       swiperOptions: {
-				slidesPerView: 1,
+        slidesPerView: 1,
         spaceBetween: 24,
         lazy: true,
         pagination: {
@@ -102,7 +96,6 @@ export default {
   height: 40px;
   width: 40px;
   padding: 8px;
-
 }
 </style>
 <style scoped>
