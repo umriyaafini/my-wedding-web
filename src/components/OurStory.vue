@@ -77,19 +77,19 @@ export default {
   max-width: 100%;
   border-radius: 40px;
 }
-.swiper-pagination-bullet {
+.our-story .swiper-pagination-bullet {
   background: #ffffff;
   opacity: 1;
 }
-.swiper-pagination-bullet-active {
+.our-story .swiper-pagination-bullet-active {
   background: #262830;
 }
-.swiper-button-prev::after,
-.swiper-button-next::after {
+.our-story .swiper-button-prev::after,
+.our-story .swiper-button-next::after {
   display: none;
 }
-.swiper-button-prev,
-.swiper-button-next {
+.our-story .swiper-button-prev,
+.our-story .swiper-button-next {
   box-shadow: 0px 2px 4px rgba(110, 116, 134, 0.32);
   background: #ffffff;
   border-radius: 50%;

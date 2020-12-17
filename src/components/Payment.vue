@@ -13,7 +13,7 @@
             height="320px"
             width="100%"
             style="border:none;"
-            title="delivery"
+            title="Payment Delivery"
           ></iframe>
         </div>
         <div class="payment__method">

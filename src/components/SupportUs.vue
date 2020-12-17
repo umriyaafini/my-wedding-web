@@ -110,8 +110,20 @@ export default {
   max-width: 100%;
   border-radius: 40px;
 }
-.swiper-button-prev,
-.swiper-button-next {
+.support-us .swiper-pagination-bullet {
+  background: #ffffff;
+  opacity: 1;
+}
+.support-us .swiper-pagination-bullet-active {
+  background: #262830;
+}
+.support-us .swiper-button-prev::after,
+.support-us .swiper-button-next::after {
+  display: none;
+}
+
+.support-us .swiper-button-prev,
+.support-us .swiper-button-next {
   box-shadow: 0px 2px 4px rgba(110, 116, 134, 0.32);
   background: #ffffff;
   border-radius: 50%;

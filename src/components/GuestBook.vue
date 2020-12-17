@@ -105,8 +105,12 @@ export default {
 .guest-book .swiper-pagination-bullet-active {
   background: #252a31;
 }
-.swiper-button-prev,
-.swiper-button-next {
+.guest-book .swiper-button-prev::after,
+.guest-book .swiper-button-next::after {
+  display: none;
+}
+.guest-book .swiper-button-prev,
+.guest-book .swiper-button-next {
   box-shadow: 0px 2px 4px rgba(110, 116, 134, 0.32);
   background: #ffffff;
   border-radius: 50%;

@@ -200,6 +200,7 @@
               frameborder="0"
               allowtransparency="true"
               allow="encrypted-media"
+              title="Spotify Playlist"
             ></iframe>
           </div>
         </swiper-slide>

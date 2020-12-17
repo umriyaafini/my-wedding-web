@@ -13,13 +13,9 @@
 import Introduction from './components/Introduction';
 import OurStory from './components/OurStory';
 import Event from './components/Event';
-
-const Award = () =>
-  import(/* webpackChunkName: 'Award' */ './components/Award');
-const GuestBook = () =>
-  import(/* webpackChunkName: 'GuestBook' */ './components/GuestBook');
-const SupportUs = () =>
-  import(/* webpackChunkName: 'SupportUs' */ './components/SupportUs');
+import Award from './components/Award';
+import GuestBook from './components/GuestBook';
+import SupportUs from './components/SupportUs';
 
 export default {
   name: 'App',
@@ -52,6 +48,7 @@ img {
 }
 #app {
   font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+  font-display: optional;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   max-width: 1120px;
