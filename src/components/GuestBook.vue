@@ -77,7 +77,7 @@ export default {
     getDataMessages() {
       try {
         fetch(
-          'http://gsx2json.com/api?id=1gvpUhAjghXlSItvCfzYm2LY98hDXrmIAvuEgYh3VXKg&sheet=1&columns=false'
+          'https://gsx2json.com/api?id=1gvpUhAjghXlSItvCfzYm2LY98hDXrmIAvuEgYh3VXKg&sheet=1&columns=false'
         )
           .then((response) => response.json())
           .then((json) => {
