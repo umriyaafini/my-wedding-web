@@ -5,8 +5,8 @@
       "winners": [
         {
           "img": {
-            "webp": "/images/award/app/zoom@2x.webp",
-            "png": "/images/award/app/zoom@2x.png"
+            "webp": "/images/award/app/zoom.webp",
+            "png": "/images/award/app/zoom.jpg"
           },
           "title": "Zoom",
           "link": "https://zoom.us/"
@@ -15,32 +15,32 @@
       "candidate": [
         {
           "img": {
-            "webp": "/images/award/app/skype@2x.webp",
-            "png": "/images/award/app/skype@2x.png"
+            "webp": "/images/award/app/skype.webp",
+            "png": "/images/award/app/skype.jpg"
           },
           "title": "Skype",
           "link": "https://www.skype.com/en/"
         },
         {
           "img": {
-            "webp": "/images/award/app/telegram@2x.webp",
-            "png": "/images/award/app/telegram@2x.png"
+            "webp": "/images/award/app/telegram.webp",
+            "png": "/images/award/app/telegram.jpg"
           },
           "title": "Telegram",
           "link": "https://telegram.org/"
         },
         {
           "img": {
-            "webp": "/images/award/app/whatsapp@2x.webp",
-            "png": "/images/award/app/whatsapp@2x.png"
+            "webp": "/images/award/app/whatsapp.webp",
+            "png": "/images/award/app/whatsapp.jpg"
           },
           "title": "WA",
           "link": "https://www.whatsapp.com/?lang=en"
         },
         {
           "img": {
-            "webp": "/images/award/app/hangout@2x.webp",
-            "png": "/images/award/app/hangout@2x.png"
+            "webp": "/images/award/app/hangout.webp",
+            "png": "/images/award/app/hangout.jpg"
           },
           "title": "Hangout",
           "link": "https://hangouts.google.com/"
@@ -52,8 +52,8 @@
       "winners": [
         {
           "img": {
-            "webp": "/images/award/app/telegram@2x.webp",
-            "png": "/images/award/app/telegram@2x.png"
+            "webp": "/images/award/app/telegram.webp",
+            "png": "/images/award/app/telegram.jpg"
           },
           "title": "Telegram",
           "link": "https://telegram.org/"
@@ -62,32 +62,32 @@
       "candidate": [
         {
           "img": {
-            "webp": "/images/award/app/whatsapp@2x.webp",
-            "png": "/images/award/app/whatsapp@2x.png"
+            "webp": "/images/award/app/whatsapp.webp",
+            "png": "/images/award/app/whatsapp.jpg"
           },
           "title": "WA",
           "link": "https://www.whatsapp.com/?lang=en"
         },
         {
           "img": {
-            "webp": "/images/award/app/map@2x.webp",
-            "png": "/images/award/app/map@2x.png"
+            "webp": "/images/award/app/map.webp",
+            "png": "/images/award/app/map.jpg"
           },
           "title": "Maps",
           "link": "https://support.google.com/maps/answer/7326816"
         },
         {
           "img": {
-            "webp": "/images/award/app/instagram@2x.webp",
-            "png": "/images/award/app/instagram@2x.png"
+            "webp": "/images/award/app/instagram.webp",
+            "png": "/images/award/app/instagram.jpg"
           },
           "title": "IG",
           "link": "https://instagram.com/"
         },
         {
           "img": {
-            "webp": "/images/award/app/twitter@2x.webp",
-            "png": "/images/award/app/twitter@2x.png"
+            "webp": "/images/award/app/twitter.webp",
+            "png": "/images/award/app/twitter.jpg"
           },
           "title": "Twitter",
           "link": "https://twitter.com/"
@@ -99,16 +99,16 @@
       "winners": [
         {
           "img": {
-            "webp": "/images/award/app/paper@2x.webp",
-            "png": "/images/award/app/paper@2x.png"
+            "webp": "/images/award/app/paper.webp",
+            "png": "/images/award/app/paper.jpg"
           },
           "title": "Paper",
           "link": "https://www.dropbox.com/paper"
         },
         {
           "img": {
-            "webp": "/images/award/app/pinterest@2x.webp",
-            "png": "/images/award/app/pinterest@2x.png"
+            "webp": "/images/award/app/pinterest.webp",
+            "png": "/images/award/app/pinterest.jpg"
           },
           "title": "Pinterest",
           "link": "https://www.pinterest.com/"
@@ -117,32 +117,32 @@
       "candidate": [
         {
           "img": {
-            "webp": "/images/award/app/figma@2x.webp",
-            "png": "/images/award/app/figma@2x.png"
+            "webp": "/images/award/app/figma.webp",
+            "png": "/images/award/app/figma.jpg"
           },
           "title": "Figma",
           "link": "https://www.figma.com/"
         },
         {
           "img": {
-            "webp": "/images/award/app/notion@2x.webp",
-            "png": "/images/award/app/notion@2x.png"
+            "webp": "/images/award/app/notion.webp",
+            "png": "/images/award/app/notion.jpg"
           },
           "title": "Notion",
           "link": "https://www.notion.so/"
         },
         {
           "img": {
-            "webp": "/images/award/app/keep@2x.webp",
-            "png": "/images/award/app/keep@2x.png"
+            "webp": "/images/award/app/keep.webp",
+            "png": "/images/award/app/keep.jpg"
           },
           "title": "Keep",
           "link": "https://keep.google.com/"
         },
         {
           "img": {
-            "webp": "/images/award/app/sheets@2x.webp",
-            "png": "/images/award/app/sheets@2x.png"
+            "webp": "/images/award/app/sheets.webp",
+            "png": "/images/award/app/sheets.jpg"
           },
           "title": "Sheet",
           "link": "https://www.google.com/sheets/about/"

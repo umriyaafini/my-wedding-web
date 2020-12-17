@@ -14,8 +14,9 @@ import Introduction from './components/Introduction';
 import OurStory from './components/OurStory';
 import Event from './components/Event';
 import Award from './components/Award';
-import GuestBook from './components/GuestBook';
 import SupportUs from './components/SupportUs';
+
+const GuestBook = () => import(/* webpackChunkName: 'GuestBook' */ './components/GuestBook');
 
 export default {
   name: 'App',
@@ -27,6 +28,9 @@ export default {
     GuestBook,
     SupportUs,
   },
+  mounted() {
+    document.addEventListener('touchstart', () => {}, {capture: true});
+  }
 };
 </script>
 
@@ -77,6 +81,10 @@ section {
     padding: 0 24px;
     margin-bottom: 40px;
     max-width: 360px;
+  }
+
+  .section-title {
+    font-size: 24px;
   }
 }
 </style>

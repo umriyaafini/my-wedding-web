@@ -1,29 +1,30 @@
 <template>
   <section class="our-story">
-    <div class="our-story__desc">
-      <h2 class="section-title">
-        Our Story
-      </h2>
-      <p>
-        We first met 7 years ago in a campus community. We met again at the same
-        company after two years of not seeing each other. We had a really
-        magical time in our long-distance relationship between Jakarta, Jogja,
-        and Semarang. And now, we are ready to start another magical time
-        together.
-      </p>
-    </div>
-    <div class="our-story__photos">
-      <swiper ref="ourStoryPhotos" :options="swiperOptions">
-        <swiper-slide v-for="(photos, i) in ourStoryPhotos" :key="i">
-          <picture>
-            <source type="image/webp" :data-srcset="photos.img.webp" />
-            <source type="image/jpeg" :data-srcset="photos.img.jpg" />
-            <img
-              :data-src="photos.img.jpg"
-              :alt="photos.title"
-              class="swiper-lazy"
-            />
-          </picture>
+    <h2 class="section-title">
+      Our Story
+    </h2>
+    <div class="our-story__stories">
+      <swiper ref="ourStories" :options="swiperOptions">
+        <swiper-slide v-for="(stories, i) in ourStories" :key="i">
+          <div class="stories">
+            <div class="stories__caption">
+              {{ stories.caption }}
+            </div>
+            <div class="stories__photos">
+              <picture
+                v-for="(photos, photosIndex) in stories.photos"
+                :key="photosIndex"
+              >
+                <source type="image/webp" :data-srcset="photos.webp" />
+                <source type="image/jpeg" :data-srcset="photos.png" />
+                <img
+                  :data-src="photos.png"
+                  :alt="photos.title"
+                  class="swiper-lazy"
+                />
+              </picture>
+            </div>
+          </div>
         </swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
         <div class="swiper-button-prev" slot="button-prev">
@@ -39,7 +40,7 @@
 
 <script>
 import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper';
-import ourStoryPhotos from '../data/ourStoryPhotos.json';
+import ourStories from '../data/ourStories.json';
 
 export default {
   name: 'OurStory',
@@ -52,13 +53,13 @@ export default {
   },
   data() {
     return {
-      ourStoryPhotos: ourStoryPhotos.data,
+      ourStories: ourStories.data,
       swiperOptions: {
-        slidesPerView: 1,
-        spaceBetween: 24,
-        lazy: true,
-        pagination: {
-          el: '.swiper-pagination',
+        spaceBetween: 16,
+        slidesPerView: 'auto',
+        freeMode: true,
+        lazy: {
+          loadPrevNext: true,
         },
         navigation: {
           nextEl: '.swiper-button-next',
@@ -71,7 +72,7 @@ export default {
 </script>
 <style>
 .our-story .swiper-slide {
-  width: 360px;
+  width: 486px;
 }
 .our-story .swiper-slide img {
   max-width: 100%;
@@ -81,12 +82,21 @@ export default {
   background: #ffffff;
   opacity: 1;
 }
+.our-story .swiper-container {
+  overflow: unset;
+}
 .our-story .swiper-pagination-bullet-active {
   background: #262830;
 }
 .our-story .swiper-button-prev::after,
 .our-story .swiper-button-next::after {
   display: none;
+}
+.our-story .swiper-button-prev {
+  left: -64px;
+}
+.our-story .swiper-button-next {
+  right: -64px;
 }
 .our-story .swiper-button-prev,
 .our-story .swiper-button-next {
@@ -97,29 +107,40 @@ export default {
   width: 40px;
   padding: 8px;
 }
+@media screen and (max-width: 992px) {
+  .our-story .swiper-button-prev,
+  .our-story .swiper-button-next {
+    display: none;
+  }
+}
 </style>
 <style scoped>
-.our-story {
+.stories {
   display: flex;
 }
-.our-story__photos {
-  max-width: 360px;
+
+.stories__caption {
+  width: 240px;
+  border: 1px solid #e8edf1;
+  border-radius: 16px;
+  height: 360px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
 }
-.our-story__desc {
-  flex: 1;
-}
-.our-story__desc p {
-  max-width: 400px;
+
+.stories__photos {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 992px) {
   .our-story {
     flex-direction: column;
     align-items: center;
-  }
-
-  .our-story__desc {
-    margin-bottom: 40px;
   }
 }
 </style>

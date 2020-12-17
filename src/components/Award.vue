@@ -27,7 +27,10 @@
                 >
                   <template v-if="isMobileView">
                     <picture>
-                      <source type="image/webp" :data-srcset="winner.img.webp" />
+                      <source
+                        type="image/webp"
+                        :data-srcset="winner.img.webp"
+                      />
                       <source type="image/jpeg" :data-srcset="winner.img.png" />
                       <img
                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="

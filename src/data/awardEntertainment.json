@@ -5,8 +5,8 @@
       "winners": [
         {
           "img": {
-            "webp": "/images/award/youtube/kisahtanahjawa@2x.webp",
-            "png": "/images/award/youtube/kisahtanahjawa@2x.png"
+            "webp": "/images/award/youtube/kisahtanahjawa.webp",
+            "png": "/images/award/youtube/kisahtanahjawa.jpg"
           },
           "title": "Kisah Tanah Jawa",
           "link": "https://www.youtube.com/channel/UCZIEmkvbSV8wBVWnP4wgftA"
@@ -15,45 +15,45 @@
       "candidate": [
         {
           "img": {
-            "webp": "/images/award/youtube/mediakoentji@2x.webp",
-            "png": "/images/award/youtube/mediakoentji@2x.png"
+            "webp": "/images/award/youtube/mediakoentji.webp",
+            "png": "/images/award/youtube/mediakoentji.jpg"
           },
           "title": "Media Koentji",
           "link": "https://www.youtube.com/channel/UCozSEVDJiTNHZn4ktIOsFhg"
         },
         {
           "img": {
-            "webp": "/images/award/youtube/watchdoc@2x.webp",
-            "png": "/images/award/youtube/watchdoc@2x.png"
+            "webp": "/images/award/youtube/watchdoc.webp",
+            "png": "/images/award/youtube/watchdoc.jpg"
           },
           "title": "Watchdoc",
           "link": "https://www.youtube.com/user/watchd0c"
         },
         {
           "img": {
-            "webp": "/images/award/youtube/jsc@2x.webp",
-            "png": "/images/award/youtube/jsc@2x.png"
+            "webp": "/images/award/youtube/jsc.webp",
+            "png": "/images/award/youtube/jsc.jpg"
           },
           "title": "JCS",
           "link": "https://www.youtube.com/c/JCSCriminalPsychology"
         },
         {
           "img": {
-            "webp": "/images/award/youtube/beforeafter@2x.webp",
-            "png": "/images/award/youtube/beforeafter@2x.png"
+            "webp": "/images/award/youtube/beforeafter.webp",
+            "png": "/images/award/youtube/beforeafter.jpg"
           },
           "title": "Before After",
           "link": "https://www.wakuwakujapan.com/en/program/detail/wj0000002755/"
         }
       ]
-		},
-		{
+    },
+    {
       "category": "Category Best recent K-drama 👩👨️‍",
       "winners": [
         {
           "img": {
-            "webp": "/images/award/kdrama/startup@2x.webp",
-            "png": "/images/award/kdrama/startup@2x.png"
+            "webp": "/images/award/kdrama/startup.webp",
+            "png": "/images/award/kdrama/startup.jpg"
           },
           "title": "Start-Up",
           "link": "https://www.netflix.com/title/81290293"
@@ -62,45 +62,45 @@
       "candidate": [
         {
           "img": {
-            "webp": "/images/award/kdrama/reply@2x.webp",
-            "png": "/images/award/kdrama/reply@2x.png"
+            "webp": "/images/award/kdrama/reply.webp",
+            "png": "/images/award/kdrama/reply.jpg"
           },
           "title": "Reply 1988",
           "link": "https://www.netflix.com/title/80188351"
         },
         {
           "img": {
-            "webp": "/images/award/kdrama/prison@2x.webp",
-            "png": "/images/award/kdrama/prison@2x.png"
+            "webp": "/images/award/kdrama/prison.webp",
+            "png": "/images/award/kdrama/prison.jpg"
           },
           "title": "Prison Playbook",
           "link": "https://www.netflix.com/title/80214406"
         },
         {
           "img": {
-            "webp": "/images/award/kdrama/ohmygosh@2x.webp",
-            "png": "/images/award/kdrama/ohmygosh@2x.png"
+            "webp": "/images/award/kdrama/ohmygosh.webp",
+            "png": "/images/award/kdrama/ohmygosh.jpg"
           },
           "title": "Oh My Ghost",
           "link": "https://www.netflix.com/title/80178404"
         },
         {
           "img": {
-            "webp": "/images/award/kdrama/dodosolsollalasol@2x.webp",
-            "png": "/images/award/kdrama/dodosolsollalasol@2x.png"
+            "webp": "/images/award/kdrama/dodosolsollalasol.webp",
+            "png": "/images/award/kdrama/dodosolsollalasol.jpg"
           },
           "title": "Doldolsolsollalasol",
           "link": "https://www.netflix.com/title/81276344"
         }
       ]
-		},
-		{
+    },
+    {
       "category": "Category Best Netflix series 🍟",
       "winners": [
         {
           "img": {
-            "webp": "/images/award/series/sexed@2x.webp",
-            "png": "/images/award/series/sexed@2x.png"
+            "webp": "/images/award/series/sexed.webp",
+            "png": "/images/award/series/sexed.jpg"
           },
           "title": "Sex Education",
           "link": "https://www.netflix.com/title/80197526"
@@ -109,45 +109,45 @@
       "candidate": [
         {
           "img": {
-            "webp": "/images/award/series/blymanor@2x.webp",
-            "png": "/images/award/series/blymanor@2x.png"
+            "webp": "/images/award/series/blymanor.webp",
+            "png": "/images/award/series/blymanor.jpg"
           },
           "title": "TH of Byl Manor",
           "link": "https://www.netflix.com/title/81237854"
         },
         {
           "img": {
-            "webp": "/images/award/series/emily@2x.webp",
-            "png": "/images/award/series/emily@2x.png"
+            "webp": "/images/award/series/emily.webp",
+            "png": "/images/award/series/emily.jpg"
           },
           "title": "Emily in Paris",
           "link": "https://www.netflix.com/title/81037371"
         },
         {
           "img": {
-            "webp": "/images/award/series/juon@2x.webp",
-            "png": "/images/award/series/juon@2x.png"
+            "webp": "/images/award/series/juon.webp",
+            "png": "/images/award/series/juon.jpg"
           },
           "title": "Ju On Origin",
           "link": "https://www.netflix.com/title/81059942"
         },
         {
           "img": {
-            "webp": "/images/award/series/queensgambit@2x.webp",
-            "png": "/images/award/series/queensgambit@2x.png"
+            "webp": "/images/award/series/queensgambit.webp",
+            "png": "/images/award/series/queensgambit.jpg"
           },
           "title": "Queens's Gambit",
           "link": "https://www.netflix.com/title/80234304"
         }
       ]
-		},
-		{
+    },
+    {
       "category": "Category Most favorite activities together 🌿",
       "winners": [
         {
           "img": {
-            "webp": "/images/award/activities/planting@2x.webp",
-            "png": "/images/award/activities/planting@2x.png"
+            "webp": "/images/award/activities/planting.webp",
+            "png": "/images/award/activities/planting.jpg"
           },
           "title": "Planting",
           "link": "https://en.wikipedia.org/wiki/Plant_nursery"
@@ -156,35 +156,82 @@
       "candidate": [
         {
           "img": {
-            "webp": "/images/award/activities/cooking@2x.webp",
-            "png": "/images/award/activities/cooking@2x.png"
+            "webp": "/images/award/activities/cooking.webp",
+            "png": "/images/award/activities/cooking.jpg"
           },
           "title": "Cooking",
           "link": "https://en.wikipedia.org/wiki/Cooking"
         },
         {
           "img": {
-            "webp": "/images/award/activities/hiking@2x.webp",
-            "png": "/images/award/activities/hiking@2x.png"
+            "webp": "/images/award/activities/hiking.webp",
+            "png": "/images/award/activities/hiking.jpg"
           },
           "title": "Hiking",
           "link": "https://en.wikipedia.org/wiki/Hiking"
         },
         {
           "img": {
-            "webp": "/images/award/activities/touring@2x.webp",
-            "png": "/images/award/activities/touring@2x.png"
+            "webp": "/images/award/activities/touring.webp",
+            "png": "/images/award/activities/touring.jpg"
           },
           "title": "Touring",
           "link": "https://en.wikipedia.org/wiki/Touring"
         },
         {
           "img": {
-            "webp": "/images/award/activities/reading@2x.webp",
-            "png": "/images/award/activities/reading@2x.png"
+            "webp": "/images/award/activities/reading.webp",
+            "png": "/images/award/activities/reading.jpg"
           },
           "title": "Reading",
           "link": "https://en.wikipedia.org/wiki/Reading"
+        }
+      ]
+    },
+    {
+      "category": "Category Twitter funny jokes in our timeline 😂",
+      "winners": [
+        {
+          "img": {
+            "webp": "/images/award/meme/mic.webp",
+            "png": "/images/award/meme/mic.jpg"
+          },
+          "title": "Sharing Mic",
+          "link": "https://twitter.com/draxcoo/status/1336318577775759360?s=20"
+        }
+      ],
+      "candidate": [
+        {
+          "img": {
+            "webp": "/images/award/meme/ftv.webp",
+            "png": "/images/award/meme/fvt.jpg"
+          },
+          "title": "Start-up FTV",
+          "link": "https://twitter.com/seterahdeh/status/1336671966116290561?s=20"
+        },
+        {
+          "img": {
+            "webp": "/images/award/meme/alien.webp",
+            "png": "/images/award/meme/alien.jpg"
+          },
+          "title": "Alien Voice",
+          "link": "https://en.wikipedia.org/wiki/Hiking"
+        },
+        {
+          "img": {
+            "webp": "/images/award/meme/isa.webp",
+            "png": "/images/award/meme/isa.jpg"
+          },
+          "title": "Bring Isa down",
+          "link": "https://twitter.com/___araaaaa/status/1314240704147648513?s=20"
+        },
+        {
+          "img": {
+            "webp": "/images/award/meme/kaget.webp",
+            "png": "/images/award/meme/kaget.jpg"
+          },
+          "title": "Door",
+          "link": "https://twitter.com/BenjaminBell/status/1319111344843558912?s=20"
         }
       ]
     }

@@ -26,13 +26,13 @@
               <picture>
                 <source
                   type="image/webp"
-                  srcset="/images/payment/gopay@2x.webp"
+                  srcset="/images/payment/gopay.webp"
                 />
                 <source
                   type="image/png"
-                  srcset="/images/payment/gopay@2x.png"
+                  srcset="/images/payment/gopay.jpg"
                 />
-                <img src="/images/payment/gopay@2x.png" alt="gopay qr" />
+                <img src="/images/payment/gopay.jpg" alt="gopay qr" />
               </picture>
             </div>
           </details>
@@ -44,13 +44,13 @@
               <picture>
                 <source
                   type="image/webp"
-                  srcset="/images/payment/ovo@2x.webp"
+                  srcset="/images/payment/ovo.webp"
                 />
                 <source
                   type="image/png"
-                  srcset="/images/payment/ovo@2x.png"
+                  srcset="/images/payment/ovo.jpg"
                 />
-                <img src="/images/payment/ovo@2x.png" alt="ovo qr" />
+                <img src="/images/payment/ovo.jpg" alt="ovo qr" />
               </picture>
             </div>
           </details>
@@ -62,13 +62,13 @@
               <picture>
                 <source
                   type="image/webp"
-                  srcset="/images/payment/dana@2x.webp"
+                  srcset="/images/payment/dana.webp"
                 />
                 <source
                   type="image/png"
-                  srcset="/images/payment/dana@2x.png"
+                  srcset="/images/payment/dana.jpg"
                 />
-                <img src="/images/payment/dana@2x.png" alt="dana qr" />
+                <img src="/images/payment/dana.jpg" alt="dana qr" />
               </picture>
             </div>
           </details>
@@ -80,13 +80,13 @@
               <picture>
                 <source
                   type="image/webp"
-                  srcset="/images/payment/bca@2x.webp"
+                  srcset="/images/payment/bca.webp"
                 />
                 <source
                   type="image/png"
-                  srcset="/images/payment/bca@2x.png"
+                  srcset="/images/payment/bca.jpg"
                 />
-                <img src="/images/payment/bca@2x.png" alt="bca qr" />
+                <img src="/images/payment/bca.jpg" alt="bca qr" />
               </picture>
             </div>
           </details>

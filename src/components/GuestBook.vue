@@ -7,11 +7,13 @@
       <div>
         <div class="guest-book__form">
           <iframe
-            src="https://rezafaizarahman.typeform.com/to/IizPUyxV"
+            src="https://rezafaizarahman.typeform.com/to/IizPUyxV?typeform-embed=embed-widget"
             height="320px"
             width="100%"
             style="border:none;"
             title="Guest Book"
+            scrolling="no"
+            frameborder="0"
           ></iframe>
         </div>
       </div>
@@ -81,7 +83,7 @@ export default {
         )
           .then((response) => response.json())
           .then((json) => {
-            if (json &&  json.rows && json.rows.length) {
+            if (json && json.rows && json.rows.length) {
               this.messages = json.rows.reverse();
             }
           });
@@ -97,6 +99,7 @@ export default {
   padding: 20px;
   border-radius: 16px;
   text-align: center;
+  height: auto;
 }
 .guest-book .swiper-pagination-bullet {
   background: #e5eaef;
@@ -140,9 +143,18 @@ export default {
   align-items: center;
   height: 100%;
 }
+.message-list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .message-list__content {
   font-size: 18px;
   margin-bottom: 16px;
+  max-width: 360px;
+  margin: 0 auto;
 }
 .message-list__name {
   font-size: 14px;

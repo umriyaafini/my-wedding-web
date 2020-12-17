@@ -9,7 +9,7 @@
       <p>Semarang, Indonesia</p>
       <br/>
       <p class="event__disclaimer">
-        Due to the existence of Covid-19, we sincerely apologize because it is not possible to invite all of you to our wedding ceremony. Our sincere thanks for the prayers and blessings you are given.
+        Due to the existence of Covid-19, we sincerely apologize because it is not possible to invite all of you to our wedding ceremony. Our sincere thanks for the prayers and blessings you are given 🙏
       </p>
     </div>
     <div class="event__photos">
@@ -35,10 +35,6 @@ export default {
 }
 .event__date {
   font-weight: 600;
-}
-.event__disclaimer {  
-  font-size: 12px;
-  line-height: 18px;
 }
 
 @media screen and (max-width: 992px) {

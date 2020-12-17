@@ -5,7 +5,17 @@
     <h1 class="introduction__title">Umriya & Reza</h1>
     <p class="introduction__sub-title">We are getting married 👰🤵</p>
 
-    <img class="introduction__img" src="/images/umandreza.png" alt="um and reza">
+    <picture>
+      <source type="image/webp" srcset="/images/umandreza.webp" />
+      <source type="image/jpeg" srcset="/images/umandreza.jpeg" />
+      <source type="image/jpeg" srcset="/images/umandreza.png" />
+      <img
+        src="/images/umandreza.png"
+        alt="um and reza"
+        class="introduction__img"
+        width="820"
+      />
+    </picture>
   </div>
 </template>
 
@@ -37,7 +47,7 @@ export default {
 }
 .introduction__img {
   margin-top: 120px;
-  max-width: 600px;
+  max-width: 820px;
 }
 
 @media screen and (max-width: 992px) {
@@ -52,7 +62,7 @@ export default {
   }
   .introduction__img {
     margin-top: 40px;
-    max-width: 320px;
+    max-width: 360px;
   }
 }
 </style>
