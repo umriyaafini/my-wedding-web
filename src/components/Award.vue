@@ -255,6 +255,10 @@ a {
   color: #262830;
   text-decoration: none;
 }
+
+a:hover {
+  text-decoration: underline;
+}
 .award-card {
   border: 1px solid #e8edf1;
   border-radius: 16px;
