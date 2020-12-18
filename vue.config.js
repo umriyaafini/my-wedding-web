@@ -15,5 +15,12 @@ module.exports = {
     msTileColor: '#000000',
     appleMobileWebAppCapable: 'yes',
     appleMobileWebAppStatusBarStyle: 'white',
+    iconPaths: {
+      favicon32: '/favicon-32x32.png',
+      favicon16: '/favicon-16x16.png',
+      appleTouchIcon: '/apple-touch-icon.png',
+      maskIcon: '/safari-pinned-tab.svg',
+      msTileImage: '/msapplication-icon-144x144.png',
+    },
   },
 };

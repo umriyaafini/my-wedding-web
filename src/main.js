@@ -18,13 +18,13 @@ const messages = {
       title: 'Our Story',
       stories: [
         'We met for the first time seven years ago, in a campus community called Doscom. We often met, talk, and became friends🤙',
-        'As time went by, we were busy and had not seen each other for 2 years, then we accidentally met again and became co-workers.',
+        'As time went by, we were busy and had not seen each other for 2 years, then we accidentally met again and became co-workers! 🙌',
         'While working we complete our study, though we graduate at different times, we congratulate each other and start to fill the absence time with chatting a lot 😗',
         'Then we started dating several times, until on a beautiful date (12/12), Reza confessed his feelings and Umriya accepted! 💞',
         'After a while, Reza moved to Jakarta, and Umriya moved to Jogja. A long-distance relationship is tough for us, but Skype, Zoom, and also Train are our saviors 🚃',
         'A few months later Umriya moved to Jakarta and we were together again! In Jakarta, we focus on pursuing careers that turn out are also difficult 🙂💰 ',
         'Basically, we like to move around, and being in Jakarta makes us feel unhappy. Finally, we returned to Semarang to our hometown 🏡',
-        'We really had a really magical time in our long distance relationship between Jakarta, Jogja, and Semarang. Last September we engaged, and now we are ready to start another magical time together.',
+        'We had a magical time in our long distance relationship between Jakarta, Jogja, and Semarang. Last September we engaged, and now we are ready to start another magical time together.',
       ],
     },
     event: {
@@ -61,7 +61,7 @@ const messages = {
     },
     supportUs: {
       title: 'Next Chapter',
-      button: 'Get The Essential Kit / Support Us',
+      button: 'Get The Essential Kit and Support Us',
       caption:
         "Your prayers and blessings mean a lot to us and are all we ask for. Love to know we are passionate about sustainable living. If you'd still like to contribute, please support us and the planet to live sustainably by considering to reuse your belonging every day in your life.",
       zerowaste: `
@@ -87,7 +87,7 @@ const messages = {
         'Seiring berjalannya waktu kami sibuk masing-masing dan sempat tidak bertemu selama 2 tahun, tanpa disengaja kami bertemu kembali dan menjadi partner kerja! 🙌',
         'Sambil bekerja kami menyelesaikan perkuliahan dan lulus di waktu yang berbeda. Dari sini kami mulai saling bercerita lagi, ngobrol sana sini 😗',
         'Tak lama kami mulai kencan beberapa kali. Di tanggal cantik bulan Desember, Reza menyatakan perasannya dan Umriya menerimanya! 💞',
-        'Selang beberapa lama, Reza pindah ke Jakarta, dan Umriya pindah ke Jogja. Hubungan jarak jauh merupakan tantangan berat buat kami, tapi Skype dan Kereta menjadi penyelamat kami 🚃',
+        'Selang beberapa lama, Reza pindah ke Jakarta, dan Umriya pindah ke Jogja. Hubungan jarak jauh merupakan tantangan berat buat kami, tapi Skype, Zoom dan Kereta menjadi penyelamat kami 🚃',
         'Beberapa bulan kemudian Umriya pindah ke Jakarta dan kami bersama kembali! Di Jakarta kami fokus mengejar karir yang ternyata susah juga ya 🙂💰 ',
         'Pada dasarnya kami suka berpindah, dan lama di Jakarta membuat kami merasa bosan, hanya itu itu saja. Akhirnya kami kembali ke Semarang ke daerah asal kami 🏡',
         'Kami benar-benar memiliki waktu yang sangat ajaib dalam hubungan jarak jauh kami antara Jakarta, Jogja dan Semarang. Bulan September lalu kami telah melaksanakan Lamaran, dan sekarang kami siap untuk memulai waktu ajaib lainnya bersama.',
@@ -99,7 +99,7 @@ const messages = {
       day: 'Minggu, 09.00 AM',
       place: 'Semarang, Indonesia',
       disclaimer:
-        'Sehubungan dengan adanya Covid-19, kami mohon maaf dengan tulus karena tidak memungkinkan untuk mengundang kalian semua ke acara pernikahan kami. Terima kasih tulus kami atas doa dan berkah yang Anda berikan 🙏',
+        'Sehubungan dengan adanya Covid-19, kami mohon maaf dengan tulus karena tidak memungkinkan untuk mengundang kalian semua ke acara pernikahan kami. Terima kasih tulus kami atas doa dan restu yang Anda berikan 🙏',
     },
     guestBook: {
       title: 'Buku Tamu',
@@ -127,17 +127,17 @@ const messages = {
     },
     supportUs: {
       title: 'Selanjutnya',
-      button: 'Dapatkan Essential Kit / Dukung Kami',
+      button: 'Dapatkan Essential Kit dan Dukung Kami',
       caption:
-        'Doa dan berkah Anda sangat berarti bagi kami dan hanya itu yang kami minta. Senang mengetahui bahwa kami bersemangat tentang sustainable living. Jika Anda masih ingin berkontribusi, dukung kami dan planet ini untuk hidup berkelanjutan dengan mempertimbangkan untuk menggunakan kembali barang-barang milik Anda setiap hari dalam hidup Anda.',
+        'Doa dan restu Anda sangat berarti bagi kami dan hanya itu yang kami minta. Senang mengetahui bahwa kami bersemangat tentang sustainable living. Jika Anda masih ingin berkontribusi, dukung kami dan planet ini untuk hidup berkelanjutan dengan mempertimbangkan untuk menggunakan kembali barang-barang milik Anda setiap hari dalam hidup Anda.',
       zerowaste: `
-        <b>Paket zero waste essential kit ini akan membantumu mamulai:</b>
+        <b>Zero Waste Essential Kit ini akan membantumu untuk memulai, berisi:</b>
         <br /><br />
-        <p>1 Set alat makan yang terbuat dari kayu mahoni: sendok, garpu dan sumpit</p>
+        <p>1 Set alat makan terbuat dari kayu mahoni: sendok, garpu dan sumpit</p>
         <p>1 Set sedotan stainless steel</p>
         <p>Sabun organik (rasa: charcoal / jasmine / coffee)</p>
-        <p>100 pcs cotton bud kayu</p>
-        <p>Loofah / Oyong spons organik (± 10cm)</p>
+        <p>100 buah cotton bud kayu</p>
+        <p>Loofah / Organik busa dari Oyong (± 10cm)</p>
         <p>1 Sikat gigi bambu</p>
       `,
     },
