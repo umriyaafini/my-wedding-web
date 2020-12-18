@@ -1,7 +1,7 @@
 <template>
   <section class="guest-book">
     <h2 class="section-title">
-      Guest Book
+      {{ $t('guestBook.title') }}
     </h2>
     <div class="guest-book__content">
       <div>

@@ -1,6 +1,6 @@
 <template>
   <section class="support-us">
-    <h2 class="section-title">Next Chapter</h2>
+    <h2 class="section-title">{{ $t('supportUs.title') }}</h2>
 
     <div class="support-us__photos">
       <swiper ref="hampersPhotos" :options="swiperOptions">
@@ -26,24 +26,14 @@
     </div>
 
     <p>
-      Your prayers and blessings mean a lot to us and is all we ask for. Loved
-      ones know we are passionate about sustainable living. If you'd still like
-      to contribute, please support us and the planet to live sustainably by
-      considering to reuse your belonging everyday in your life.
+      {{ $t('supportUs.caption') }}
     </p>
     <div class="support-us__product-desc">
-      <b>This zero waste essential kit will help you to start:</b>
-      <br /><br />
-      <p>1 Set cutlery made from mahogany: spoon, fork and chopsticks</p>
-      <p>1 Set stainless steel staws</p>
-      <p>Organic soap (flavor: charcoal / jasmine / coffee)</p>
-      <p>100 pcs wooden cotton bud</p>
-      <p>Loofah Sponge (± 10cm)</p>
-      <p>1 Bamboo toothbrush</p>
+      <span v-html="$t('supportUs.zerowaste')"></span>
     </div>
 
     <button class="support-us__CTA" @click="handleOpenModalPayment">
-      Get The Essential Kit / Support Us
+      {{ $t('supportUs.button') }}
     </button>
 
     <payment :show="isModalPaymentVisible" @close="handleCloseModalPayment" />

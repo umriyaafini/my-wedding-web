@@ -1,9 +1,18 @@
 <template>
   <div class="introduction">
+    <select v-model="$i18n.locale">
+      <option
+        v-for="(lang, i) in langs"
+        :key="`lang-${i}`"
+        :value="lang.val"
+      >
+        {{ lang.label }}
+      </option>
+    </select>
     <p class="introduction__date">20.12.2020</p>
 
     <h1 class="introduction__title">Umriya & Reza</h1>
-    <p class="introduction__sub-title">We are getting married 👰🤵</p>
+    <p class="introduction__sub-title">{{ $t('introduction.caption') }}</p>
 
     <picture>
       <source type="image/webp" srcset="/images/umandreza.webp" />
@@ -22,12 +31,39 @@
 <script>
 export default {
   name: 'Introduction',
-}
+  data() {
+    return {
+      langs: [
+        {
+          val: 'en',
+          label: 'EN',
+        },
+        {
+          val: 'id',
+          label: 'ID',
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style>
 .introduction {
   text-align: center;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid #e8edf1;
+  position: absolute;
+  right: 16px;
+  top: 16px;
 }
 .introduction__date {
   font-size: 28px;

@@ -1,11 +1,10 @@
 <template>
   <section class="award">
     <h2 class="section-title">
-      Thank you to everyone who made our life so fun. This is our Special Awards
-      🥇🥈🥉
+      {{ $t('award.title') }}
     </h2>
     <div class="award-category">
-      <h3>🍪 Entertainment</h3>
+      <h3>🍪 {{ $t('award.entertainment') }}</h3>
       <swiper ref="awardCard" :options="swiperOptions">
         <swiper-slide
           v-for="(nominee, i) in entertainmentNominees"
@@ -14,10 +13,10 @@
         >
           <div class="award-card award-entertainment">
             <p class="award-card__title">
-              {{ nominee.category }}
+              {{ $t(`award.entertainmentCategoryTitle[${i}]`) }}
             </p>
             <div class="award-card__winner">
-              <p class="award__section-title">The Winner Goes to ...</p>
+              <p class="award__section-title">{{ $t('award.winner') }}</p>
               <div class="award-entertainment__winner">
                 <a
                   v-for="(winner, w) in nominee.winners"
@@ -56,7 +55,7 @@
               </div>
             </div>
             <div class="award-entertainment__candidate">
-              <p class="award__section-title">Nomination</p>
+              <p class="award__section-title">{{ $t('award.nomination') }}</p>
               <div class="award-entertainment__candidate-list">
                 <a
                   v-for="(candidate, c) in nominee.candidate"
@@ -103,15 +102,15 @@
     </div>
 
     <div class="award-category">
-      <h3>🍪 Applications</h3>
+      <h3>🍪 {{ $t('award.app') }}</h3>
       <swiper ref="awardCard" :options="swiperOptions">
         <swiper-slide v-for="(nominee, i) in appNominees" :key="i" width="280">
           <div class="award-card award-app">
             <p class="award-card__title">
-              {{ nominee.category }}
+              {{ $t(`award.appCategoryTitle[${i}]`) }}
             </p>
             <div class="award-card__winner">
-              <p class="award__section-title">The Winner Goes to ...</p>
+              <p class="award__section-title">{{ $t('award.winner') }}</p>
               <div class="award-app__winner-list">
                 <a
                   v-for="(winner, w) in nominee.winners"
@@ -149,7 +148,7 @@
               </div>
             </div>
             <div class="award-app__candidate">
-              <p class="award__section-title">Nomination</p>
+              <p class="award__section-title">{{ $t('award.nomination') }}</p>
               <div class="award-app__candidate-list">
                 <a
                   v-for="(candidate, c) in nominee.candidate"
@@ -194,7 +193,7 @@
         <swiper-slide key="spotify" width="280">
           <div class="award-card spotify-card">
             <p class="award-card__title">
-              Category Tools to listen music 🎉 Spotify 🎉
+              {{ $t('award.appCategoryTitle[3]') }}
             </p>
             <iframe
               src="https://open.spotify.com/embed/playlist/0wBdD5ZFRemZrIkCXZEhLU"

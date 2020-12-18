@@ -1,14 +1,14 @@
 <template>
   <section class="our-story">
     <h2 class="section-title">
-      Our Story
+      {{ $t('ourStory.title') }}
     </h2>
     <div class="our-story__stories">
       <swiper ref="ourStories" :options="swiperOptions">
         <swiper-slide v-for="(stories, i) in ourStories" :key="i">
           <div class="stories">
             <div class="stories__caption">
-              {{ stories.caption }}
+              {{ $t(`ourStory.stories[${i}]`) }}
             </div>
             <div class="stories__photos">
               <picture

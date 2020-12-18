@@ -1,46 +1,103 @@
 {
   "data": [
     {
-      "caption": "We met for the first time 7 years ago, in a campus community  called DOSCOM. From there we became friends.",
       "photos": [
         {
-          "webp": "/images/award/youtube/beforeafter.webp",
-          "png": "/images/award/youtube/beforeafter.png",
+          "webp": "/images/our-story/1-A.webp",
+          "jpg": "/images/our-story/1-A.jpg",
           "title": ""
         },
         {
-          "webp": "/images/award/youtube/beforeafter.webp",
-          "png": "/images/award/youtube/beforeafter.png",
+          "webp": "/images/our-story/1-B.webp",
+          "jpg": "/images/our-story/1-B.jpg",
           "title": ""
         }
       ]
     },
     {
-      "caption": "We met for the first time 7 years ago, in a campus community  called DOSCOM. From there we became friends.",
       "photos": [
         {
-          "webp": "/images/award/youtube/beforeafter.webp",
-          "png": "/images/award/youtube/beforeafter.png",
+          "webp": "/images/our-story/2-A.webp",
+          "jpg": "/images/our-story/2-A.jpg",
           "title": ""
         },
         {
-          "webp": "/images/award/youtube/beforeafter.webp",
-          "png": "/images/award/youtube/beforeafter.png",
+          "webp": "/images/our-story/2-B.webp",
+          "jpg": "/images/our-story/2-B.jpg",
           "title": ""
         }
       ]
     },
     {
-      "caption": "We met for the first time 7 years ago, in a campus community  called DOSCOM. From there we became friends.",
       "photos": [
         {
-          "webp": "/images/award/youtube/beforeafter.webp",
-          "png": "/images/award/youtube/beforeafter.png",
+          "webp": "/images/our-story/3-A.webp",
+          "jpg": "/images/our-story/3-A.jpg",
           "title": ""
         },
         {
-          "webp": "/images/award/youtube/beforeafter.webp",
-          "png": "/images/award/youtube/beforeafter.png",
+          "webp": "/images/our-story/3-B.webp",
+          "jpg": "/images/our-story/3-B.jpg",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "photos": [
+        {
+          "webp": "/images/our-story/4.webp",
+          "jpg": "/images/our-story/4.jpg",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "photos": [
+        {
+          "webp": "/images/our-story/5-A.webp",
+          "jpg": "/images/our-story/5-A.jpg",
+          "title": ""
+        },
+        {
+          "webp": "/images/our-story/5-B.webp",
+          "jpg": "/images/our-story/5-B.jpg",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "photos": [
+        {
+          "webp": "/images/our-story/6-A.webp",
+          "jpg": "/images/our-story/6-A.jpg",
+          "title": ""
+        },
+        {
+          "webp": "/images/our-story/6-B.webp",
+          "jpg": "/images/our-story/6-B.jpg",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "photos": [
+        {
+          "webp": "/images/our-story/7-A.webp",
+          "jpg": "/images/our-story/7-A.jpg",
+          "title": ""
+        },
+        {
+          "webp": "/images/our-story/7-B.webp",
+          "jpg": "/images/our-story/7-B.jpg",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "photos": [
+        {
+          "webp": "/images/our-story/8-A.webp",
+          "jpg": "/images/our-story/8-A.jpg",
           "title": ""
         }
       ]

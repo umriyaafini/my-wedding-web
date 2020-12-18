@@ -2,14 +2,14 @@
   <section class="event">
     <div class="event__desc">
       <h2 class="section-title">
-        Wedding Ceremony
+        {{ $t('event.title') }}
       </h2>
-      <p class="event__date">December 20, 2020</p>
-      <p>A Sunday, 09.00 AM</p>
-      <p>Semarang, Indonesia</p>
+      <p class="event__date">{{ $t('event.date') }}</p>
+      <p>{{ $t('event.day') }}</p>
+      <p>{{ $t('event.place') }}</p>
       <br/>
       <p class="event__disclaimer">
-        Due to the existence of Covid-19, we sincerely apologize because it is not possible to invite all of you to our wedding ceremony. Our sincere thanks for the prayers and blessings you are given 🙏
+        {{ $t('event.disclaimer') }}
       </p>
     </div>
     <div class="event__photos">
