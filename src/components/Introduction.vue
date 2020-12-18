@@ -31,6 +31,14 @@
 <script>
 export default {
   name: 'Introduction',
+  mounted() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const langParam = urlParams.get('lang');
+
+    if (langParam === 'en') {
+      this.$i18n.locale = 'en';
+    }
+  },
   data() {
     return {
       langs: [
