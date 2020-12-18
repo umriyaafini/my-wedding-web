@@ -17,7 +17,7 @@
           ></iframe>
         </div>
         <div class="payment__method">
-          <h4>Pembayaran yang tersedia</h4>
+          <h4>Nomor rekening yang tersedia</h4>
           <details>
             <summary>GO-PAY</summary>
             <div class="payment__method-detail">
