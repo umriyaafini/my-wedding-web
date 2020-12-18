@@ -31,9 +31,6 @@
       to contribute, please support us and the planet to live sustainably by
       considering to reuse your belonging everyday in your life.
     </p>
-
-    <br />
-
     <div class="support-us__product-desc">
       <b>This zero waste essential kit will help you to start:</b>
       <br /><br />
@@ -140,7 +137,7 @@ export default {
   align-items: center;
 }
 .support-us__photos {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   max-width: 360px;
 }
 p {
@@ -163,6 +160,7 @@ p {
   background: #f5f7f9;
   border-radius: 24px;
   padding: 32px;
+  margin-top: 24px;
 }
 
 @media screen and (max-width: 992px) {

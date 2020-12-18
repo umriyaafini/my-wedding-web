@@ -9,4 +9,5 @@ module.exports = {
   css: {
     extract: false,
   },
+  publicPath: '/married'
 };
