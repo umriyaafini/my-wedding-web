@@ -79,12 +79,12 @@ export default {
     getDataMessages() {
       try {
         fetch(
-          'https://gsx2json.com/api?id=1gvpUhAjghXlSItvCfzYm2LY98hDXrmIAvuEgYh3VXKg&sheet=1&columns=false'
+          'https://api.apispreadsheets.com/data/5123/'
         )
           .then((response) => response.json())
           .then((json) => {
-            if (json && json.rows && json.rows.length) {
-              this.messages = json.rows.reverse();
+            if (json && json.data && json.data.length) {
+              this.messages = json.data.reverse();
             }
           });
       } catch (error) {

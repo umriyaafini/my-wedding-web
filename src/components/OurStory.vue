@@ -76,7 +76,8 @@ export default {
 }
 .our-story .swiper-slide img {
   max-width: 100%;
-  border-radius: 40px;
+  border-radius: 12px;
+  display: block;
 }
 .our-story .swiper-pagination-bullet {
   background: #ffffff;
@@ -123,7 +124,7 @@ export default {
   width: 240px;
   border: 1px solid #e8edf1;
   border-radius: 16px;
-  height: 360px;
+  height: 345px;
   padding: 16px;
   display: flex;
   align-items: center;

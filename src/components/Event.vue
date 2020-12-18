@@ -13,7 +13,14 @@
       </p>
     </div>
     <div class="event__photos">
-      <img src="/images/ceremony.png" alt="event" />
+      <picture>
+      <source type="image/webp" srcset="/images/big-leaf.webp" />
+      <source type="image/jpeg" srcset="/images/big-leaf.jpg" />
+      <img
+        src="/images/big-leaf.jpg"
+        alt="event"
+      />
+    </picture>
     </div>
   </section>
 </template>
@@ -31,7 +38,6 @@ export default {
 }
 .event__desc {
   width: 50%;
-  margin-right: 40px;
 }
 .event__date {
   font-weight: 600;

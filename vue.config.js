@@ -9,4 +9,11 @@ module.exports = {
   css: {
     extract: false,
   },
+  pwa: {
+    name: 'Um and Reza Getiing Married',
+    themeColor: '#ffffff',
+    msTileColor: '#000000',
+    appleMobileWebAppCapable: 'yes',
+    appleMobileWebAppStatusBarStyle: 'white',
+  },
 };

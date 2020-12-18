@@ -4,6 +4,7 @@ import VueI18n from 'vue-i18n';
 
 import 'normalize.css'
 import 'swiper/css/swiper.css';
+import './registerServiceWorker'
 
 Vue.config.productionTip = false
 Vue.use(VueI18n);
